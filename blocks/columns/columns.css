@@ -1174,3 +1174,14 @@
   }
 }
 
+/* ==== MERGED .columns.columns23 (merged block) ==== */
+.columns.columns23 {
+  background: #032c35;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 46px 32px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 24px 0 rgb(0 0 0 / 12%);
+}
+
