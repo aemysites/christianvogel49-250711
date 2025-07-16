@@ -31,3 +31,97 @@
     order: unset;
   }
 }
+
+.columns.columns1 {
+  background: #00272f;
+  padding: 32px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Layout: Flex row for three columns side by side */
+.columns.columns1 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 56px;
+  margin: 0;
+  width: 100%;
+  max-width: unset;
+  box-sizing: border-box;
+  gap: 0;
+}
+
+/* Each column: stack content vertically, left align */
+.columns.columns1 > div > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+/* Headings styling */
+.columns.columns1 h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  font-family: var(--heading-font-family);
+  line-height: 1.2;
+}
+
+/* Link containers: reduce vertical gap between links */
+.columns.columns1 .button-container {
+  margin: 0 0 12px;
+}
+
+/* Remove margin below last link in each column */
+.columns.columns1 .button-container:last-child {
+  margin-bottom: 0;
+}
+
+/* Links: lime, underline, no button look */
+.columns.columns1 .button {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #c3ff00;
+  font-size: 15px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: underline;
+  line-height: 1.7;
+  box-shadow: none;
+  min-width: unset;
+  max-width: 100%;
+  display: inline;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.columns.columns1 .button:hover,
+.columns.columns1 .button:focus {
+  color: #e8ff8f;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+
+/* Responsive: stack columns vertically on small screens */
+@media (width <= 900px) {
+  .columns.columns1 > div {
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 24px;
+  }
+
+  .columns.columns1 > div > div {
+    width: 100%;
+    flex: unset;
+  }
+}
