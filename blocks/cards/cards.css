@@ -1,4 +1,3 @@
- 
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -312,4 +311,155 @@
   .cards.cards8 .cards-card-body {
     max-width: 100vw;
   }
+}
+
+/* --- GENERATED CSS (unchanged except merged selector below) --- */
+
+.cards.cards17 > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  min-height: 40px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.cards.cards17 > ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  min-height: 40px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hide empty first block (spacer) */
+.cards.cards17 .cards-card-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.cards.cards17 .cards-card-body:empty {
+  display: none;
+}
+
+/* Heading styles */
+.cards.cards17 .cards-card-body h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 0 8px;
+  padding: 0;
+  line-height: 40px;
+  font-family: var(--body-font-family), sans-serif;
+  flex: 1 1 0%;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+}
+
+/* Button container aligned far right, no extra margin */
+.cards.cards17 .cards-card-body .button-container {
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+/* Button styling - more compact, center the label */
+.cards.cards17 .cards-card-body .button {
+  background: #c1ff00;
+  color: #1a3a43;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: var(--body-font-family), sans-serif;
+  padding: 0 16px;
+  border: none;
+  line-height: 1;
+  box-shadow: none;
+  text-decoration: none;
+  margin: 0;
+  min-width: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+/* Button hover/focus, non-intrusive */
+.cards.cards17 .cards-card-body .button:hover,
+.cards.cards17 .cards-card-body .button:focus {
+  background: #b2e200;
+  color: #1a3a43;
+  text-decoration: none;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (width <= 600px) {
+  .cards.cards17 > ul,
+  .cards.cards17 > ul > li,
+  .cards.cards17 .cards-card-body {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    min-height: unset;
+    padding: 0 8px;
+  }
+
+  .cards.cards17 .cards-card-body h3 {
+    white-space: normal;
+    overflow: visible;
+    line-height: 1.3;
+    margin-left: 0;
+    margin-bottom: 9px;
+  }
+
+  .cards.cards17 .cards-card-body .button-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: 100%;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .cards.cards17 .cards-card-body .button {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+/* --- MERGED .cards.cards17 SELECTOR BELOW --- */
+
+.cards.cards17 {
+  background: #002a36;
+  min-height: 40px;
+  padding: 0;
+  box-sizing: border-box;
 }
