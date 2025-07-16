@@ -1,8 +1,14 @@
 .embed {
+  background: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
   width: unset;
   text-align: center;
-  max-width: 800px;
-  margin: 32px auto;
 }
 
 .embed > div {
@@ -16,8 +22,16 @@
 }
 
 .embed .embed-placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  min-height: 186px;
+  aspect-ratio: 1163 / 186;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0;
   position: relative;
 }
 
@@ -29,10 +43,25 @@
   inset: 0;
 }
 
-.embed .embed-placeholder picture img {
+.embed .embed-placeholder > picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+}
+
+.embed .embed-placeholder picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 1163px;
+  max-height: 186px;
+  object-fit: contain;
+  background: #fff;
+  margin: 0 auto;
+  border: none;
+  box-shadow: none;
 }
 
 .embed .embed-placeholder-play button {
@@ -59,4 +88,37 @@
   border-left: 6px solid;
   top: 4px;
   left: 7px;
+}
+
+/* Hide play overlay */
+.embed .embed-placeholder-play {
+  display: none;
+}
+
+/* Responsive: scale down aspect ratio and height for small screens */
+@media (width <= 900px) {
+  .embed {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .embed .embed-placeholder {
+    min-height: 90px;
+    aspect-ratio: 1163 / 186;
+  }
+
+  .embed .embed-placeholder picture img {
+    max-width: 100vw;
+    max-height: 90px;
+  }
+}
+
+@media (width <= 600px) {
+  .embed .embed-placeholder {
+    min-height: 50px;
+  }
+
+  .embed .embed-placeholder picture img {
+    max-height: 50px;
+  }
 }
