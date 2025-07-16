@@ -1,3 +1,4 @@
+
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -43,5 +44,160 @@
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
+  }
+}
+
+.hero.hero12 {
+  position: relative;
+  width: 100vw;
+  max-width: unset;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: none;
+  display: block;
+}
+
+/* IMAGE ROW */
+.hero.hero12 > div:first-child {
+  position: relative;
+  width: 100vw;
+  min-height: 340px;
+  max-height: 440px;
+  height: 46vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero.hero12 > div:first-child picture,
+.hero.hero12 > div:first-child img {
+  display: block;
+  width: 100vw;
+  min-height: 340px;
+  max-height: 440px;
+  height: 46vw;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADLINE CENTERED OVER IMAGE, HIGHER VERTICALLY */
+.hero.hero12 > div:last-child {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  width: 100vw;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.hero.hero12 > div:last-child > div {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero.hero12 h1 {
+  font-family: var(--heading-font-family);
+  font-size: 56px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.85;
+  text-align: center;
+  margin: 0 0 0.6em;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  padding: 0 24px;
+  pointer-events: auto;
+  position: relative;
+  top: 50px;
+  transform: translateY(25%);
+}
+
+/* WHITE NAVIGATION BAR FULL WIDTH, FLUSH TO IMAGE BOTTOM, TIGHT HEIGHT */
+.hero.hero12 > div:last-child p {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background: #fff;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  min-height: 38px;
+  box-shadow: none;
+  pointer-events: auto;
+  border-radius: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: none;
+}
+
+/* Nav links refinements */
+.hero.hero12 > div:last-child p a {
+  color: #222;
+  font-size: 17px;
+  font-family: var(--body-font-family);
+  text-decoration: none;
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  transition: color 0.18s;
+}
+
+/* Remove all extra spacing from p and its children */
+.hero.hero12 > div:last-child p,
+.hero.hero12 > div:last-child p * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero.hero12 > div:last-child p a:hover,
+.hero.hero12 > div:last-child p a:focus {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .hero.hero12 > div:first-child,
+  .hero.hero12 > div:first-child picture,
+  .hero.hero12 > div:first-child img {
+    max-height: 220px;
+    min-height: 120px;
+    height: 38vw;
+  }
+
+  .hero.hero12 h1 {
+    font-size: 28px;
+    top: 25px;
+    transform: translateY(15%);
+    padding: 0 10px;
+  }
+
+  .hero.hero12 > div:last-child p {
+    min-height: 30px;
+    gap: 10px;
+    font-size: 13px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding: 0;
+  }
+
+  .hero.hero12 > div:last-child p a {
+    padding: 5px 6px;
+    font-size: 13px;
   }
 }
