@@ -1,3 +1,4 @@
+/* Columns base layout */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -112,7 +113,127 @@
   text-decoration: underline;
 }
 
-/* Responsive: stack columns vertically on small screens */
+/* Columns2 base: Placed above columns1 for specificity ordering */
+.columns.columns2 {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 18px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto 32px;
+}
+
+/* Row layout with side-by-side columns */
+.columns.columns2 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+/* Text column narrower and aligned */
+.columns.columns2 > div > div:first-child {
+  flex: 0 1 31%;
+  max-width: 320px;
+  min-width: 0;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: var(--body-font-family);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings and paragraph spacing for text column */
+.columns.columns2 > div > div:first-child p {
+  margin: 0 0 1em;
+}
+
+/* Custom bullet list: green dot, no indent, tight spacing */
+.columns.columns2 > div > div:first-child ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1em;
+}
+
+.columns.columns2 > div > div:first-child ul li {
+  position: relative;
+  padding-left: 1.4em;
+  margin-bottom: 0.2em;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.45;
+  text-indent: 0;
+}
+
+/* Hide native marker */
+.columns.columns2 > div > div:first-child ul li::marker {
+  color: transparent;
+}
+
+/* Green dot for each bullet */
+.columns.columns2 > div > div:first-child ul li::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.6em;
+  height: 0.6em;
+  background: #009150;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  content: "";
+}
+
+/* Green underlined link */
+.columns.columns2 .button-container .button {
+  color: #009150;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  padding: 0;
+  margin: 0.7em 0 0;
+  cursor: pointer;
+  display: inline;
+  min-width: 0;
+  max-width: 100%;
+  line-height: 1.5;
+  box-shadow: none;
+  transition: color 0.2s;
+}
+
+.columns.columns2 .button-container .button:hover,
+.columns.columns2 .button-container .button:focus {
+  color: #007033;
+}
+
+/* Image column: more dominant */
+.columns.columns2 > div > .columns-img-col {
+  flex: 1 1 69%;
+  min-width: 0;
+  max-width: 900px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+/* Image styling */
+.columns.columns2 .columns-img-col picture,
+.columns.columns2 .columns-img-col img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive: stack on mobile */
 @media (width <= 900px) {
   .columns.columns1 > div {
     flex-direction: column;
@@ -123,5 +244,26 @@
   .columns.columns1 > div > div {
     width: 100%;
     flex: unset;
+  }
+
+  .columns.columns2 {
+    padding: 16px 6px;
+    border-radius: 10px;
+  }
+
+  .columns.columns2 > div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .columns.columns2 > div > div:first-child,
+  .columns.columns2 > div > .columns-img-col {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .columns.columns2 .columns-img-col picture,
+  .columns.columns2 .columns-img-col img {
+    border-radius: 10px;
   }
 }
