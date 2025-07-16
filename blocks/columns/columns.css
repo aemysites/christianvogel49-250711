@@ -1,3 +1,4 @@
+
 /* Columns base layout */
 .columns > div {
   display: flex;
@@ -772,4 +773,311 @@
     font-size: 0.97rem;
     max-width: 98vw;
   }
+}
+
+.columns.columns7 {
+  background: #fff;
+  border: 2px solid #006241;
+  border-radius: 18px;
+  padding: 40px 44px 48px;
+  box-sizing: border-box;
+  max-width: 1100px;
+  margin: 32px auto;
+}
+
+.columns.columns7 > div {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+@media (width <= 700px) {
+  .columns.columns7 {
+    padding: 18px 3vw 24px;
+  }
+
+  .columns.columns7 > div {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+.columns.columns7 .columns-img-col picture,
+.columns.columns7 .columns-img-col img {
+  width: 170px;
+  max-width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  height: 96px;
+  box-shadow: none;
+}
+
+@media (width <= 700px) {
+  .columns.columns7 .columns-img-col picture,
+  .columns.columns7 .columns-img-col img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* KEY: left align all! */
+  text-align: left;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/* ---------- HEADER ROW ---------- */
+.columns.columns7 .columns7-header-row,
+.columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
+.columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine + .button-container:first-of-type {
+  margin-left: 1.2rem;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
+.columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
+  margin-bottom: 0;
+  line-height: 1.12;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine {
+  color: #8B959E;
+  font-size: 1.02rem;
+  font-weight: 400;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  line-height: 1.23;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
+  margin: 0 0 0.1rem;
+  position: relative;
+  top: 0;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type .button {
+  background: #D6FF28;
+  color: #222;
+  border-radius: 999px;
+  font-size: 1.06rem;
+  font-weight: 500;
+  padding: 0.5em 2.3em 0.49em;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.19;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+@media (width >= 460px) {
+  .columns.columns7 > div > div:not(.columns-img-col) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
+  .columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine + .button-container:first-of-type {
+    margin-left: 1.12rem;
+  }
+
+  .columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
+  .columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
+    margin-bottom: 0;
+  }
+}
+
+/* HEADER: ensure heading and button are on one line, left-aligned */
+.columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
+.columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
+  /* Trick: use container flex for header group */
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) {
+  /* Only direct children after heading+button should stack downwards */
+  margin-bottom: 1.65rem;
+}
+
+/* ---------- EVENT LIST ---------- */
+.columns.columns7 > div > div:not(.columns-img-col) .button-container {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:not(:first-of-type) .button {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
+  cursor: initial;
+  min-width: unset;
+  max-width: 100%;
+}
+
+.columns.columns7 .button-container:not(:first-of-type) .button:hover,
+.columns.columns7 .button-container:not(:first-of-type) .button:focus {
+  background: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Remove bullets/lists if present */
+.columns.columns7 > div > div:not(.columns-img-col) ul,
+.columns.columns7 > div > div:not(.columns-img-col) ol {
+  display: none;
+}
+
+/* ---------- EVENT BLOCKS: 2-column flex for every event ---------- */
+.columns.columns7 .event-row7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 28px;
+  margin-bottom: 1.35rem;
+  min-height: 62px;
+}
+
+@media (width <= 700px) {
+  .columns.columns7 .event-row7 {
+    gap: 13px;
+    margin-bottom: 1.05rem;
+    min-height: 46px;
+  }
+}
+
+/* For each event, group every 4 .button-container as a flex row: date/month left, title/range right */
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(2),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(6),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(10) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 28px;
+  margin-bottom: 1.25rem;
+  min-height: 58px;
+  width: 100%;
+}
+
+/* Date/month column, stacked and right-aligned */
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(2),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(6),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(10) {
+  width: 70px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(2) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(6) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(10) .button {
+  color: #006241;
+  font-size: 2.26rem;
+  font-weight: 700;
+  line-height: 1.04;
+  margin: 0 0 -0.08rem;
+  padding: 0;
+  display: block;
+  text-align: right;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(3),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(7),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(11) {
+  width: 70px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin-top: -0.36rem;
+  margin-bottom: 0.12rem;
+  display: block;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(3) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(7) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(11) .button {
+  color: #8B959E;
+  font-size: 0.96rem;
+  font-weight: 400;
+  line-height: 1.07;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: right;
+}
+
+/* Right column: title/range, stacked left-aligned */
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(4),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(8),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(12) {
+  flex: 1 1 0;
+  margin-top: 0.08rem;
+  margin-left: 18px;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(4) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(8) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(12) .button {
+  color: #212121;
+  font-size: 1.16rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 0.09rem;
+  padding: 0;
+  display: block;
+  text-align: left;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(5),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(9),
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(13) {
+  flex: 1 1 0;
+  margin-top: -0.05rem;
+  margin-left: 18px;
+}
+
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(5) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(9) .button,
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(13) .button {
+  color: #8B959E;
+  font-size: 0.97rem;
+  font-weight: 400;
+  line-height: 1.13;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: left;
+}
+
+/* Hide extra containers if present */
+.columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(n+14) {
+  display: none;
 }
