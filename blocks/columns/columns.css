@@ -1609,7 +1609,6 @@
   line-height: 1.55;
 }
 
-/* Reduce grid gaps on smaller screens for compactness */
 @media (width <= 1024px) {
   .columns.columns16 > div {
     grid-template-columns: repeat(2, 1fr);
@@ -1623,5 +1622,222 @@
     grid-template-columns: 1fr;
     gap: 10px 0;
     padding: 8px 0;
+  }
+}
+
+
+.columns.columns11 {
+  background: #fff;
+  border: 2px solid #008272;
+  border-radius: 16px;
+  box-sizing: border-box;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 40px 32px;
+}
+
+.columns.columns11 > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+/* Responsive: stack columns vertically */
+@media (width <= 900px) {
+  .columns.columns11 {
+    padding: 24px 8px;
+  }
+
+  .columns.columns11 > div {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/* Column content: minimum padding, flex-start */
+.columns.columns11 > div > div {
+  padding: 0 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* --- Headings --- */
+.columns.columns11 h2 {
+  font-family: var(--heading-font-family);
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: #222829;
+  margin: 0 0 22px;
+  line-height: 1.1;
+  text-align: left;
+}
+
+/* --- Medienkontakte (Left Column) --- */
+.columns.columns11 > div > div:first-child > p {
+  margin: 0 0 4px;
+  color: #222829;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Tighter contacts grouping */
+.columns.columns11 > div > div:first-child > p:nth-of-type(1),
+.columns.columns11 > div > div:first-child > p:nth-of-type(5) {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.columns.columns11 > div > div:first-child > p picture {
+  flex-shrink: 0;
+}
+
+.columns.columns11 > div > div:first-child > p picture img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 1px 6px rgb(34 40 41 / 7%);
+  display: block;
+  background: #f8f8f8;
+}
+
+.columns.columns11 > div > div:first-child > p + p {
+  margin-top: 0;
+}
+
+/* Reduce space between contacts */
+.columns.columns11 > div > div:first-child > p:nth-of-type(4) {
+  margin-bottom: 6px;
+}
+
+/* Contact links */
+.columns.columns11 > div > div:first-child a[href^="mailto:"],
+.columns.columns11 > div > div:first-child a[href^="tel:"],
+.columns.columns11 > div > div:first-child .button {
+  color: #008272;
+  text-decoration: underline;
+  font-weight: 400;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  display: inline;
+  box-shadow: none;
+  min-width: 0;
+  min-height: 0;
+}
+
+.columns.columns11 > div > div:first-child > p.button-container {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.columns.columns11 > div > div:first-child > p.button-container .button {
+  color: #008272;
+  text-decoration: underline;
+  font-weight: 400;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  display: inline;
+  box-shadow: none;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* --- Corporate Design Portal (Right Column) --- */
+.columns.columns11 > div > div:last-child > p {
+  color: #222829;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 5px;
+  text-align: left;
+}
+
+/* --- Image + Text in a row in right column --- */
+.columns.columns11 > div > div:last-child > p:first-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0 0 2px;
+  width: 100%;
+  padding: 0;
+}
+
+.columns.columns11 > div > div:last-child > p:first-of-type picture {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  display: block; /* force presence for empty img fallback */
+}
+
+.columns.columns11 > div > div:last-child > p:first-of-type picture img {
+  width: 110px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 13px;
+  display: block;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+.columns.columns11 > div > div:last-child > p:first-of-type + p {
+  flex: 1;
+  margin: 0 0 8px;
+}
+
+.columns.columns11 > div > div:last-child > p.button-container {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.columns.columns11 > div > div:last-child .button {
+  color: #008272;
+  text-decoration: underline;
+  font-weight: 400;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  box-shadow: none;
+  min-width: 0;
+  min-height: 0;
+  display: inline;
+}
+
+@media (width <= 600px) {
+  .columns.columns11 {
+    padding: 16px 0;
+  }
+
+  .columns.columns11 > div > div {
+    padding: 0 2px;
+  }
+
+  .columns.columns11 h2 {
+    font-size: 1.35rem;
+    margin-bottom: 8px;
+  }
+
+  .columns.columns11 > div > div:last-child > p:first-of-type picture img {
+    width: 70px;
+    height: 50px;
   }
 }
