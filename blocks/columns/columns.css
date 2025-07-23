@@ -1,6 +1,5 @@
 
 
-/* Columns base layout */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -22,7 +21,6 @@
   display: block;
 }
 
-/* Columns2 base: placed before columns1, columns4, columns5 for specificity ordering to resolve no-descending-specificity */
 .columns.columns2 {
   background: #fff;
   border-radius: 16px;
@@ -133,7 +131,6 @@
   display: block;
 }
 
-/* Columns1 base: placed after columns2 for specificity ordering */
 .columns.columns1 {
   background: #00272f;
   padding: 32px 0;
@@ -208,7 +205,6 @@
   text-decoration: underline;
 }
 
-/* Columns4 base: placed after columns2, columns1, before columns5 */
 .columns.columns4 {
   background: #fff;
   max-width: 1000px;
@@ -321,7 +317,6 @@
   display: none;
 }
 
-/* ----- GENERATED CSS (except for .columns.columns5) ----- */
 .columns.columns5 > div {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 420px;
@@ -585,7 +580,6 @@
   margin: 0;
 }
 
-/* ----- MERGED SELECTOR ----- */
 .columns.columns5 {
   background: #fff;
   border-radius: 20px;
@@ -595,7 +589,6 @@
   box-sizing: border-box;
 }
 
-/* --- MERGED .columns.columns6 --- */
 .columns.columns6 {
   border-top: 1px solid #222;
   border-bottom: 1px solid #222;
@@ -604,7 +597,6 @@
   max-width: 100vw;
 }
 
-/* Main row: two columns, vertically centered */
 .columns.columns6 > div {
   display: flex;
   flex-direction: row;
@@ -617,7 +609,6 @@
   box-sizing: border-box;
 }
 
-/* Stack columns vertically on narrow screens */
 @media (width <= 900px) {
   .columns.columns6 > div {
     flex-direction: column;
@@ -626,7 +617,6 @@
   }
 }
 
-/* Left column: center content vertically and horizontally */
 .columns.columns6 > div > div:first-child {
   display: flex;
   flex-direction: column;
@@ -686,7 +676,6 @@
   margin-top: 0;
 }
 
-/* Right column: image + badge */
 .columns.columns6 > div > div:last-child {
   position: relative;
   display: flex;
@@ -736,7 +725,6 @@
   padding: 0;
 }
 
-/* Responsive adjustments */
 @media (width <= 600px) {
   .columns.columns6 > div {
     padding: 18px 2vw;
@@ -830,13 +818,12 @@
 .columns.columns7 > div > div:not(.columns-img-col) {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* KEY: left align all! */
+  align-items: flex-start;
   text-align: left;
   justify-content: flex-start;
   width: 100%;
 }
 
-/* ---------- HEADER ROW ---------- */
 .columns.columns7 .columns7-header-row,
 .columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
 .columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
@@ -908,18 +895,14 @@
   }
 }
 
-/* HEADER: ensure heading and button are on one line, left-aligned */
 .columns.columns7 > div > div:not(.columns-img-col) > #anstehende-termine,
 .columns.columns7 > div > div:not(.columns-img-col) > .button-container:first-of-type {
-  /* Trick: use container flex for header group */
 }
 
 .columns.columns7 > div > div:not(.columns-img-col) {
-  /* Only direct children after heading+button should stack downwards */
   margin-bottom: 1.65rem;
 }
 
-/* ---------- EVENT LIST ---------- */
 .columns.columns7 > div > div:not(.columns-img-col) .button-container {
   margin: 0;
   padding: 0;
@@ -950,13 +933,11 @@
   text-decoration: none;
 }
 
-/* Remove bullets/lists if present */
 .columns.columns7 > div > div:not(.columns-img-col) ul,
 .columns.columns7 > div > div:not(.columns-img-col) ol {
   display: none;
 }
 
-/* ---------- EVENT BLOCKS: 2-column flex for every event ---------- */
 .columns.columns7 .event-row7 {
   display: flex;
   flex-direction: row;
@@ -974,7 +955,6 @@
   }
 }
 
-/* For each event, group every 4 .button-container as a flex row: date/month left, title/range right */
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(2),
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(6),
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(10) {
@@ -987,7 +967,6 @@
   width: 100%;
 }
 
-/* Date/month column, stacked and right-aligned */
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(2),
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(6),
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(10) {
@@ -1035,7 +1014,6 @@
   text-align: right;
 }
 
-/* Right column: title/range, stacked left-aligned */
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(4),
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(8),
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(12) {
@@ -1078,12 +1056,10 @@
   text-align: left;
 }
 
-/* Hide extra containers if present */
 .columns.columns7 > div > div:not(.columns-img-col) .button-container:nth-of-type(n+14) {
   display: none;
 }
 
-/* ---- MERGED .columns.columns10 ---- */
 .columns.columns10 {
   background: #05232a;
   padding: 24px 0;
@@ -1174,7 +1150,6 @@
   }
 }
 
-/* ==== MERGED .columns.columns23 (merged block) ==== */
 .columns.columns23 {
   background: #032c35;
   border-radius: 20px;
@@ -1185,3 +1160,133 @@
   box-shadow: 0 4px 24px 0 rgb(0 0 0 / 12%);
 }
 
+
+
+.columns.columns39 {
+  background: #02232d;
+  padding: 18px 0 22px;
+}
+
+/* Layout columns side-by-side */
+.columns.columns39 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 18px;
+  align-items: flex-start;
+}
+
+/* Stack columns on mobile */
+@media (width <= 900px) {
+  .columns.columns39 > div {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 5vw;
+    max-width: 99vw;
+  }
+}
+
+/* Each column/card */
+.columns.columns39 > div > div {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+
+/* Headings */
+.columns.columns39 h3 {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 14px;
+  line-height: 1.15;
+}
+
+/* Descriptive text */
+.columns.columns39 > div > div > p {
+  color: #b9e1da;
+  font-size: 1.13rem;
+  font-weight: 400;
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+
+/* Show images in their own line, between heading and text */
+.columns.columns39 > div > div > p > picture,
+.columns.columns39 > div > div > p > img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Picture and direct images */
+.columns.columns39 > div > div > p > picture img,
+.columns.columns39 > div > div > p > img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 0 0 18px;
+  border-radius: 16px;
+}
+
+/* Remove excess margin on text below image */
+.columns.columns39 > div > div > p + p {
+  margin-top: 0;
+}
+
+/* Button container for left alignment, less vertical gap */
+.columns.columns39 > div > div > p.button-container {
+  margin: 6px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Button styles */
+.columns.columns39 .button-container .button,
+.columns.columns39 a.button {
+  background: #d0ff2f;
+  color: #02232d;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 24px;
+  padding: 12px 36px;
+  border: none;
+  margin: 0;
+  min-width: 170px;
+  text-align: center;
+  box-shadow: none;
+  transition: background 0.18s;
+  display: inline-block;
+}
+
+.columns.columns39 .button-container .button:hover,
+.columns.columns39 .button-container .button:focus,
+.columns.columns39 a.button:hover,
+.columns.columns39 a.button:focus {
+  background: #bee000;
+}
+
+@media (width <= 900px) {
+  .columns.columns39 > div > div {
+    max-width: 100%;
+  }
+
+  .columns.columns39 > div > div > p > picture img,
+  .columns.columns39 > div > div > p > img {
+    max-width: 97%;
+    margin-bottom: 12px;
+  }
+
+  .columns.columns39 > div > div > p.button-container {
+    justify-content: center;
+  }
+}
