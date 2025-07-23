@@ -1,6 +1,4 @@
 
-/* Each selector block is now multi-line and has only one declaration per rule as per rule */
-
 .cards {
   padding: 0;
   background: transparent;
@@ -192,19 +190,6 @@
   box-shadow: none;
 }
 
-.cards.cards24 .cards-card-image {
-  display: block;
-  width: 100%;
-  height: 142px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  overflow: hidden;
-  background: #fff;
-  margin: 0;
-  line-height: 0;
-  flex-shrink: 0;
-}
-
 .cards.cards28 > ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -368,60 +353,6 @@
   min-width: 0;
   min-height: 90px;
   transition: box-shadow 0.16s;
-}
-
-.cards.cards24 > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
-  gap: 11px;
-  align-items: stretch;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.cards.cards24 > ul > li {
-  background: #fff;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px 6px rgb(40 40 80 / 5%);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  min-height: 360px;
-  transition: box-shadow 0.2s;
-}
-
-.cards.cards24 > ul > li:hover {
-  box-shadow: 0 8px 24px rgb(40 40 80 / 11%);
-}
-
-.cards.cards24 .cards-card-body {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  padding: 15px 13px;
-  background: #fff;
-  min-height: 0;
-  justify-content: flex-start;
-}
-
-.cards.cards24 .cards-card-body > p:first-child {
-  font-size: 13px;
-  color: #616161;
-  font-weight: 500;
-  margin: 0 0 7px;
-  line-height: 1.25;
-}
-
-.cards.cards24 .cards-card-body > p:not(:first-child) {
-  font-size: 15px;
-  color: #212121;
-  line-height: 1.6;
-  margin: 0;
-  text-align: left;
-  letter-spacing: 0;
-  overflow-wrap: anywhere;
 }
 
 .cards.cards22 .cards-card-body .button {
@@ -760,7 +691,6 @@
   }
 }
 
-/* ========== MERGED .cards.cards36 ========== */
 .cards.cards36 {
   max-width: 100vw;
   margin: 32px auto;
@@ -939,7 +869,6 @@
   }
 }
 
-/* Responsive grid for card layout, left-align cards horizontally */
 .cards > ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
@@ -950,7 +879,6 @@
   padding: 0;
 }
 
-/* Card container: teal background, visible, left-aligned, padding */
 .cards > ul > li {
   background: #00908A;
   border-radius: 18px;
@@ -968,13 +896,11 @@
   overflow: hidden;
 }
 
-/* Hide image from the card */
 .cards .cards-card-image,
 .cards .cards-card-image * {
   display: none;
 }
 
-/* Card body: left-align, fill width, provide internal padding */
 .cards .cards-card-body {
   display: flex;
   flex-direction: column;
@@ -986,7 +912,6 @@
   box-sizing: border-box;
 }
 
-/* Pill label style: first paragraph in card body */
 .cards .cards-card-body > p:first-child {
   background: #B9E2E8;
   color: #434343;
@@ -999,7 +924,6 @@
   line-height: 1.4;
 }
 
-/* Heading styling */
 .cards .cards-card-body h3 {
   color: #fff;
   font-size: 16px;
@@ -1013,7 +937,6 @@
   overflow-wrap: break-word;
 }
 
-/* General card body text: show paragraphs, left-align, white, spacing */
 .cards .cards-card-body p {
   color: #fff;
   font-size: 15px;
@@ -1025,13 +948,11 @@
   overflow-wrap: break-word;
 }
 
-/* Remove button and button container */
 .cards .cards-card-body .button-container,
 .cards .cards-card-body a.button {
   display: none;
 }
 
-/* Responsive: stack cards vertically on small screens */
 @media (width <= 800px) {
   .cards > ul {
     grid-template-columns: 1fr;
@@ -1048,7 +969,6 @@
   }
 }
 
-/* Merged .cards.cards40 selector */
 .cards.cards40 {
   width: 100%;
   background: transparent;
@@ -1086,7 +1006,6 @@
   align-items: flex-start;
 }
 
-/* Avatar/Image styles */
 .cards.cards40 .cards-card-image {
   position: absolute;
   top: 38px;
@@ -1110,7 +1029,6 @@
   display: block;
 }
 
-/* Body styles */
 .cards.cards40 .cards-card-body {
   display: flex;
   flex-direction: column;
@@ -1126,7 +1044,6 @@
   position: relative;
 }
 
-/* Main quote */
 .cards.cards40 .cards-card-body > p:first-child {
   color: #fff;
   background: none;
@@ -1142,7 +1059,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Author name */
 .cards.cards40 .cards-card-body > p:nth-child(2) {
   color: #fff;
   font-size: 1.09rem;
@@ -1153,7 +1069,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Author title */
 .cards.cards40 .cards-card-body > p:nth-child(3) {
   color: #8ee7d3;
   font-size: 1.02rem;
@@ -1164,7 +1079,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Accent line for 2nd card using border-top on author name */
 .cards.cards40 ul > li:nth-child(2) .cards-card-body > p:nth-child(2) {
   border-top: 4px solid #D9FF00;
   border-radius: 2.5px;
@@ -1173,7 +1087,6 @@
   margin-bottom: 4px;
 }
 
-/* Button (if present in HTML) */
 .cards.cards40 .cards-card-body .button-container,
 .cards.cards40 .cards-card-body a.button {
   display: flex;
@@ -1211,7 +1124,6 @@
   background: #b9e300;
 }
 
-/* Responsive adjustments */
 @media (width <= 950px) {
   .cards.cards40 ul {
     grid-template-columns: 1fr;
@@ -1234,3 +1146,137 @@
   }
 }
 
+
+
+.cards.cards24 {
+  display: block;
+  padding: 0;
+  background: transparent;
+}
+
+/* Restore visibility for all card sections and remove accidental hiding */
+.cards.cards24,
+.cards.cards24 * {
+  visibility: visible;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+/* Grid layout for card list */
+.cards.cards24 > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: start;
+}
+
+/* Card styling */
+.cards.cards24 > ul > li {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgb(60 64 67 / 13%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  transition: box-shadow 0.2s;
+  border: none;
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Card hover: slightly stronger shadow */
+.cards.cards24 > ul > li:hover {
+  box-shadow: 0 8px 32px rgb(60 64 67 / 20%);
+}
+
+/* Show card image */
+.cards.cards24 .cards-card-image {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background: #f4f4f4;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  margin: 0;
+  line-height: 0;
+  flex-shrink: 0;
+}
+
+.cards.cards24 .cards-card-image img,
+.cards.cards24 .cards-card-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Card body layout */
+.cards.cards24 .cards-card-body {
+  padding: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+/* Remove default p margins in cards */
+.cards.cards24 .cards-card-body > p {
+  margin: 0;
+}
+
+/* Meta line styling */
+.cards.cards24 .cards-card-body > p:first-child {
+  font-size: 13px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 4px;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  display: block;
+  line-height: 1.25;
+}
+
+/* Main paragraph styling */
+.cards.cards24 .cards-card-body > p:not(:first-child) {
+  font-size: 15px;
+  color: #3c4043;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Responsive design */
+@media (width <= 800px) {
+  .cards.cards24 > ul {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .cards.cards24 > ul > li {
+    max-width: 100%;
+  }
+
+  .cards.cards24 .cards-card-body {
+    padding: 14px 8px;
+  }
+
+  .cards.cards24 .cards-card-image {
+    height: 140px;
+  }
+}
