@@ -1,0 +1,422 @@
+{
+  "templates": [
+    {
+      "name": "Dashboard Template",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzberichte-18134",
+          "uuid": "717b02992e83dbabc5f4bb12ad8904bc46f8572d"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/investoren-15766",
+          "uuid": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/medien-15771",
+          "uuid": "2f5f0b1bb698c1827cabd25fd7f6ae26122679f4"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/historie-15914",
+          "uuid": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/marken-und-markengruppen-15811",
+          "uuid": "bbde5601df2c6168d03d19b8379eb63c89654100"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/medienkontakte-15997",
+          "uuid": "ecaa44e4f1bf258ed4eed7d75494ab3764ed4c41"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-controversies-15846",
+          "uuid": "e8907a438db56a75e777c054d16c0ef0257593fe"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/stimmrechtsmitteilungen-nach-wphg-15780",
+          "uuid": "c123a719f0af32dc465148c1a25f0a9a09ee1754"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/volkswagen-group-technology-16016",
+          "uuid": "6fddde4e6a4a6dcdb03a373d62f8706976d241c2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "uuid": "53d8cb3ea44d871bb59ac51c706cd625984f635a"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/info-hub-e-mobilitaet-18823",
+          "uuid": "052f5cb89ca79d02f1554106a3fbfcf3db98a609"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/menschenrechte-16108",
+          "uuid": "aa4f5e4b3d2c1330400e9ce477afcea790538490"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-in-der-lieferkette-16113",
+          "uuid": "cc8a8340fe9b300340946fb32f5b327a322f777a"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmensfuehrung-15790",
+          "uuid": "63c807f63e5d5089bd0a5c8936b16f6ade3a8992"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmensfuehrung-15790?node=41262",
+          "uuid": "bed96298ffe509589e93d0c081c431e38b1b6c16"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeitsstrategie-18157",
+          "uuid": "c172e030723cce843d47345301528b2759ab700a"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/jahresberichterstattung-der-volkswagen-konzern-gesellschaften-2024-15787",
+          "uuid": "7f035cebbb1ef417ed647157fb7b42866969d0f1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/event-highlights-18120",
+          "uuid": "8262a4798dd324367214668adab5ea008c9d04bc"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/livestream-videos-16023",
+          "uuid": "dc93e8b5c0e3c2492ea45c4e44d575996c1eb575"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzmitteilungen-16031",
+          "uuid": "c04fbf7b161a6ca02e5559bd19029e380268003e"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "uuid": "09cf25744e5004a59f9e071c4b71e6799e21d25a"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ueber-uns-16013",
+          "uuid": "292f49601d89f7ec843d7f3f5a2bd9a9e1bd9acc"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/verguetung-15764",
+          "uuid": "19a41788370d26d6d3d705dcfe63e767f319037e"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/corporate-governance-15789",
+          "uuid": "662338a4e9b6dd8e2f2a62c6723d939ab30fafb9"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/hauptversammlung-2025-18801",
+          "uuid": "42ea2144e155ca02ff02e72e19ab9ecb15cae5a3"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/auslieferungen-an-kundinnen-und-kunden-15741",
+          "uuid": "4749f76de90eb9b14f2e6f1cdd5f095c954f6b40"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/sonstige-rechtliche-angelegenheiten-15736",
+          "uuid": "2143f2e8d9c9ff13b7c95e0d170059eb4cc12d9b"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/volkswagen-group-mobility-16056",
+          "uuid": "48284c58c22783360250430d834d6bb7ba5ca585"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ethik-risikomanagement-und-compliance-15952?node=41264",
+          "uuid": "a5d31ff416f8cd8f19a5b0eabbcc68b5a13ffde6"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ethik-risikomanagement-und-compliance-15952",
+          "uuid": "8cc1adf44f687a3e1362ddd908bc11048c8b161b"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
+          "uuid": "28bcd12ea3a9072b6255038bb6849a1245739668"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/policies-16116",
+          "uuid": "006b17efd2a1ec92b9fe7cdf07855815e87cf041"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/karriere-16057",
+          "uuid": "39746ddd6f1a19b571b294ba0567eb45cd842d44"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/traton-group-16021",
+          "uuid": "c926d6179d4b7c2c736ec0880744be58d10bfe33"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
+          "uuid": "2242b64e2487d6ac9b7758b5e13b5639566a31ec"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/konzerngrundsaetze-15957",
+          "uuid": "6791f4f0258b29f3518c3872c7d94cc11cdb3696"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/managers-transactions-15739",
+          "uuid": "de5ff038d9ed6cbb75e5bf5944cea927711f82bd"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/green-finance-15752",
+          "uuid": "d76b6c830570e2f5c8546b67df8f96aca73432a7"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ratings-15756",
+          "uuid": "4c0f9e5e7a57b84578fdeedab6460dd737bf70c2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/berichte-15808",
+          "uuid": "fc7f674c1b5e7139640e048ea0438626b032dbdc"
+        }
+      ]
+    },
+    {
+      "name": "'Corporate Dashboard Template'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.volkswagen-group.com/de/termine",
+          "uuid": "790ff363bc70c41b6df7b43d5b1b0932c94db176"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/fremdkapital-18401",
+          "uuid": "45b49adf96565da64df24a49cb13c53c9311ddd7"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/integritaet-und-compliance-15705",
+          "uuid": "e8788a0a921fc3732319f409b4186f993d6d9767"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/erklaerungen-15792",
+          "uuid": "3a9ec2f9b504a797958c1b68c2673a5996a02e5c"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/gesellschaft-18271",
+          "uuid": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/natur-18174",
+          "uuid": "c3219b33e4760047022dc9b6fb0cb358a7b491c5"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
+          "uuid": "e75e6dd719f7eee34c4786e6b8fa741396848134"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unser-hinweisgebersystem-16041",
+          "uuid": "39f85c042e6605fa2b399401fe637c0a2eff444c"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanznachrichten-17302",
+          "uuid": "d871d4372982992cfab93aae13746a8df03b2278"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "uuid": "9bcd0d412eea9c30aee834a140f7ec7073b98251"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-factbook-15801",
+          "uuid": "ae63239030baaf943306628c8d424cdb13f7373a"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/aktien-15791",
+          "uuid": "2253baaddabf7dd3bded54f2271b89888539b019"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzkennzahlen-18842",
+          "uuid": "6868c78d937e084a632da94c654faeea8b5bffa4"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/standorte-der-volkswagen-group-17481",
+          "uuid": "b2f04bc63048580c6c7a0c9c4b462ef290a779d3"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/basisdaten-16024",
+          "uuid": "e6b2ab4a5f8e1d7c6dc8742c8fff9a36f9efc74f"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/praesentationen-15715",
+          "uuid": "b467ac80ea31743e86822873fa3311eb0d6d4257"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/kultur-engagement-17291",
+          "uuid": "b5b359c785801ea88b7a7366ee65ae7a6d54a038"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/business-18276",
+          "uuid": "04aacb43ff9573012f775b29c74f27d433811b3c"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/soziales-engagement-16086",
+          "uuid": "7167b6a55279e301e98452a42c5c5823fa74e56c"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/initiativen-18186",
+          "uuid": "dbfc87dc3ce65c5da5b1a725277ed587fdea6a33"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/dividende-15991",
+          "uuid": "a11a279d4f3e6ef544f13c5f9786e8c0a2e50a32"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/audi-15850",
+          "uuid": "a63895cafc6abb72a37c1a3ae35c5f8865c8c57b"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/seat-15849",
+          "uuid": "1d1d1228af64cfea32fce140f2b63b65e36a212e"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/skoda-16061",
+          "uuid": "fb79abcabfbc60e7787995446e4cfbdcfe04e650"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/porsche-16022",
+          "uuid": "ec0cd8c96514a628b6d0de57b6a5af97cbdcb093"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/volkswagen-15847",
+          "uuid": "115c718308b76894516e1b5939fefd949bed14ef"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/cupra-15848",
+          "uuid": "39201828fec1d98d173f548dcf5e4fc89a9b9b9e"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/automobili-lamborghini-16062",
+          "uuid": "abf7ca3a4298994c0fcb912f43a2bd764e6ed8d8"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/bentley-15809",
+          "uuid": "f113535d41a525bf3f67795f521cbb77cc39684f"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/moia-16058",
+          "uuid": "cb591dfb73af4d5f377b4a59151bd1e7d8e20bd5"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/cariad-16008",
+          "uuid": "72e857ddbdf7ea172acd9c02fe954913f6c46b04"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/datenschutzerklaerung-15677",
+          "uuid": "fef1cd6479687d9af0e9d72e9985ccf4fc908493"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ducati-16007",
+          "uuid": "25318c3ade10760cc4a838f7f63d87db7b95609c"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzinstrumente-15775",
+          "uuid": "9acb340e10e1e27289e3468e0a92562a1df6c07b"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/emissionsprogramme-15788",
+          "uuid": "c189b1babb80522d9453a95727ba65434c8bab45"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/stakeholderbeziehungen-17319",
+          "uuid": "fae8af8c4dcf67c5133a99cb178c4dd92116b9fc"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/fremdkapital-und-ratings-16034",
+          "uuid": "e3db8843db2c334ca4aa3a1fac21d0c7d9fe86b0"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzberichte-und-publikationen-16121",
+          "uuid": "df9d885dff9a5c261fd85fd2b9b66ab4f25fd35f"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/urheberrechtshinweise-und-lizenzen-zu-open-source-software-15698",
+          "uuid": "b995f0f0dd3f9b91f28202b16dcf4b068a0ae0c9"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/informationen-zur-volkswagen-group-und-rivian-partnerschaft-18390",
+          "uuid": "720b4fed2bbb830dfaa6b3d9d50437395a31ddfd"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/informationen-zur-platzierung-von-traton-se-aktien-19088",
+          "uuid": "a95aa19a41e1d7b21f57eced537e7c83c153ee7c"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/informationen-zum-boersengang-der-porsche-ag-16100",
+          "uuid": "975136a3667ca11a92ef2e22864657ab37400974"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/pressemitteilungen",
+          "uuid": "1db1cae5c69b95ba0a1ad85e1da5bd7e8bd532e6"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/aktienkurs-16020",
+          "uuid": "4c57ed7cb0ccc80d264db5c995ba49e327e31184"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/aktionaersstruktur-15951",
+          "uuid": "9e829aec9764416501d2927a4f73aee5972c3412"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/kennzahlen-zu-den-volkswagen-aktien-16045",
+          "uuid": "030b00247391de5bfc0b20f15b69449e226b7c7e"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/volkswagen-group-erweitert-kreditfazilitaet-mit-bankenkonsortium-19142",
+          "uuid": "ea92479750815259eefd6eaeb7ee0890bdad72c2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ad-hoc",
+          "uuid": "421a59868925bed3b88d6516610674e3e2fd0dc2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/risikomanagement-16103",
+          "uuid": "dbc5637823f7fd5f0e4a8cdeb0f1542ac0eb7c0f"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de",
+          "uuid": "d5ab3650bb0201ddf829eec6b07f87c22e26387d"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/disclaimer-europcar-offer-16109",
+          "uuid": "4f3068d639becfabfa75a41d20dc1600f88da092"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ausblick-16029",
+          "uuid": "bfc22dfad9e46c65d102eae9f54a0650ca73f910"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/anti-korruption-im-volkswagen-konzern-15708",
+          "uuid": "5c8f28e40a227f78e4aa728141ceecacdca6a7bf"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/investor-fact-sheet-19008",
+          "uuid": "80475e62eaa84b1578b4de9e85e07cede1c8a7da"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/registrierung",
+          "uuid": "1f049ef76a9e2b9544e4b62004a5bfa298f45af9"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/cookie-richtlinie-15690",
+          "uuid": "c26044c7b698dae1925d120871e05674903a277a"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nutzungsbedingungen-15697",
+          "uuid": "d96bd1556e7163be1e6c6fd2b61c3e6820993ac0"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/impressum-15695",
+          "uuid": "9127cde78d3ab79341f26a2d2e8130f1f98654df"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/engagement-15956",
+          "uuid": "22653b6d3e56286b08a5e87d7936a3654460e023"
+        }
+      ]
+    },
+    {
+      "name": "\"Pricing Table Page\"",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzergebnisse-18486",
+          "uuid": "88b95e495706b87cac9a227a04315564eece747b"
+        }
+      ]
+    }
+  ]
+}
