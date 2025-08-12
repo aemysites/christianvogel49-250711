@@ -1631,6 +1631,20 @@
           "uuid": "e555465e-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-08-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-09-89e54dff048b00dbdad4221df17a8e615d00e545",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
+          "section": "section-1"
         }
       ]
     },
@@ -1769,29 +1783,6 @@
           "urlHash": "e8907a438db56a75e777c054d16c0ef0257593fe",
           "uuid": "e8907a43-07-03fb06b09b26708e0a88bb08229d160b2761fbc4",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 14,
-      "source": "Columns",
-      "target": "Columns (columns14)",
-      "key": "columns14",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-08-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-09-89e54dff048b00dbdad4221df17a8e615d00e545",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
           "section": "section-1"
         }
       ]
