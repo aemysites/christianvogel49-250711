@@ -1509,6 +1509,13 @@
           "uuid": "9bcd0d41-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/natur-18174",
+          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
+          "uuid": "c3219b33-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
+          "section": "section-1"
         }
       ]
     },
@@ -5629,22 +5636,6 @@
           "urlHash": "c172e030723cce843d47345301528b2759ab700a",
           "uuid": "c172e030-09-0db5e01347036cb165c815d5dcfdefb06e49c110",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 137,
-      "source": "Columns",
-      "target": "Columns (columns137)",
-      "key": "columns137",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/natur-18174",
-          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
-          "uuid": "c3219b33-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
           "section": "section-1"
         }
       ]
