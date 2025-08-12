@@ -1284,6 +1284,69 @@
           "uuid": "2242b64e-03-d3986e148cbd6d7adc23ed9477d3c5c947dab057",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[4]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/business-18276",
+          "urlHash": "04aacb43ff9573012f775b29c74f27d433811b3c",
+          "uuid": "04aacb43-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
+          "uuid": "9bcd0d41-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
+          "uuid": "9bcd0d41-07-4767b10c16a838b71c9a6c0ec4088fedfbd1ef4e",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
+          "uuid": "9bcd0d41-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/standorte-der-volkswagen-group-17481",
+          "urlHash": "b2f04bc63048580c6c7a0c9c4b462ef290a779d3",
+          "uuid": "b2f04bc6-10-3d7326aed22e2f4a8f6c7e7110d36414d8fc1779",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/natur-18174",
+          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
+          "uuid": "c3219b33-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/gesellschaft-18271",
+          "urlHash": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9",
+          "uuid": "e555465e-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-08-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-09-89e54dff048b00dbdad4221df17a8e615d00e545",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
+          "section": "section-1"
         }
       ]
     },
@@ -1579,78 +1642,6 @@
           "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
           "uuid": "48bec51d-18-e9c98ad7e854f7dd35a8702a8913778f329320d1",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[22]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 10,
-      "source": "Columns",
-      "target": "Columns (columns10)",
-      "key": "columns10",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/business-18276",
-          "urlHash": "04aacb43ff9573012f775b29c74f27d433811b3c",
-          "uuid": "04aacb43-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
-          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
-          "uuid": "9bcd0d41-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
-          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
-          "uuid": "9bcd0d41-07-4767b10c16a838b71c9a6c0ec4088fedfbd1ef4e",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
-          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
-          "uuid": "9bcd0d41-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/standorte-der-volkswagen-group-17481",
-          "urlHash": "b2f04bc63048580c6c7a0c9c4b462ef290a779d3",
-          "uuid": "b2f04bc6-10-3d7326aed22e2f4a8f6c7e7110d36414d8fc1779",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/natur-18174",
-          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
-          "uuid": "c3219b33-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/gesellschaft-18271",
-          "urlHash": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9",
-          "uuid": "e555465e-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-08-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-09-89e54dff048b00dbdad4221df17a8e615d00e545",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
           "section": "section-1"
         }
       ]
