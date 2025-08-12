@@ -1277,6 +1277,13 @@
           "uuid": "fb79abca-05-b502e46aec2d7e694475284f89230f3024a55868",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
+          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
+          "uuid": "2242b64e-03-d3986e148cbd6d7adc23ed9477d3c5c947dab057",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[4]",
+          "section": "section-1"
         }
       ]
     },
@@ -1287,13 +1294,6 @@
       "target": "Columns (columns2)",
       "key": "columns2",
       "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
-          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
-          "uuid": "2242b64e-03-d3986e148cbd6d7adc23ed9477d3c5c947dab057",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[4]",
-          "section": "section-1"
-        },
         {
           "url": "https://www.volkswagen-group.com/de/konzerngrundsaetze-15957",
           "urlHash": "6791f4f0258b29f3518c3872c7d94cc11cdb3696",
