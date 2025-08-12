@@ -1354,6 +1354,34 @@
           "uuid": "c172e030-06-4ccc58b9be4249244b17765cc205dcfef859aa98",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/volkswagen-nutzfahrzeuge-15999",
+          "urlHash": "02b47807f5c9e64d6a1ce5db86d16872f317ef69",
+          "uuid": "02b47807-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ducati-16007",
+          "urlHash": "25318c3ade10760cc4a838f7f63d87db7b95609c",
+          "uuid": "25318c3a-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/traton-group-16021",
+          "urlHash": "c926d6179d4b7c2c736ec0880744be58d10bfe33",
+          "uuid": "c926d617-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/moia-16058",
+          "urlHash": "cb591dfb73af4d5f377b4a59151bd1e7d8e20bd5",
+          "uuid": "cb591dfb-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
         }
       ]
     },
@@ -3901,43 +3929,6 @@
           "urlHash": "a95aa19a41e1d7b21f57eced537e7c83c153ee7c",
           "uuid": "a95aa19a-04-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 49,
-      "source": "Columns",
-      "target": "Columns (columns49)",
-      "key": "columns49",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/volkswagen-nutzfahrzeuge-15999",
-          "urlHash": "02b47807f5c9e64d6a1ce5db86d16872f317ef69",
-          "uuid": "02b47807-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/ducati-16007",
-          "urlHash": "25318c3ade10760cc4a838f7f63d87db7b95609c",
-          "uuid": "25318c3a-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/traton-group-16021",
-          "urlHash": "c926d6179d4b7c2c736ec0880744be58d10bfe33",
-          "uuid": "c926d617-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/moia-16058",
-          "urlHash": "cb591dfb73af4d5f377b4a59151bd1e7d8e20bd5",
-          "uuid": "cb591dfb-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
           "section": "section-1"
         }
       ]
