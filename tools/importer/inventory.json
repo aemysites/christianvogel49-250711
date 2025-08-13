@@ -1389,6 +1389,41 @@
           "uuid": "c172e030-08-12ce60854995d4d0ef74a27a287f2e265bd238bf",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[14]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
+          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
+          "uuid": "28bcd12e-05-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
+          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
+          "uuid": "28bcd12e-09-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/soziales-engagement-16086",
+          "urlHash": "7167b6a55279e301e98452a42c5c5823fa74e56c",
+          "uuid": "7167b6a5-05-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
+          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
+          "uuid": "e75e6dd7-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
+          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
+          "uuid": "e75e6dd7-06-bcea9653c476d09ebc79b6228885cae56f04e0ae",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[10]",
+          "section": "section-6"
         }
       ]
     },
@@ -4480,50 +4515,6 @@
           "uuid": "0900ff0c-14-e41968186be9e4df257879fb5907fac7528d891f",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[18]/div[1]/div[1]/div[4]",
           "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 72,
-      "source": "Columns",
-      "target": "Columns (columns72)",
-      "key": "columns72",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
-          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
-          "uuid": "28bcd12e-05-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
-          "section": "section-6"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
-          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
-          "uuid": "28bcd12e-09-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
-          "section": "section-6"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/soziales-engagement-16086",
-          "urlHash": "7167b6a55279e301e98452a42c5c5823fa74e56c",
-          "uuid": "7167b6a5-05-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
-          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
-          "uuid": "e75e6dd7-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
-          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
-          "uuid": "e75e6dd7-06-bcea9653c476d09ebc79b6228885cae56f04e0ae",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[10]",
-          "section": "section-6"
         }
       ]
     },
