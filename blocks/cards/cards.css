@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -43,7 +44,6 @@
   align-items: stretch;
 }
 
-/* Card container */
 .cards.cards3 ul > li {
   background: #fff;
   border-radius: 16px;
@@ -61,7 +61,6 @@
   box-shadow: 0 6px 24px rgb(0 0 0 / 11%);
 }
 
-/* Card image: visible and fills the top */
 .cards.cards3 .cards-card-image {
   width: 100%;
   margin: 0;
@@ -84,7 +83,6 @@
   margin: 0;
 }
 
-/* Card body: tighter, compact, aligns all content towards top */
 .cards.cards3 .cards-card-body {
   flex: 1 1 auto;
   display: flex;
@@ -93,7 +91,6 @@
   padding: 10px 14px 12px;
 }
 
-/* Title: bold, teal, tight spacing */
 .cards.cards3 .cards-card-body p strong {
   color: #109488;
   font-size: 16.5px;
@@ -103,7 +100,6 @@
   line-height: 1.22;
 }
 
-/* Subtext: higher contrast, tighter line spacing */
 .cards.cards3 .cards-card-body p {
   margin: 0 0 2px;
   color: #506060;
@@ -112,7 +108,6 @@
   font-family: var(--body-font-family);
 }
 
-/* Download button: compact, visually distinct */
 .cards.cards3 .cards-card-body a {
   display: inline-block;
   color: #109488;
@@ -134,9 +129,6 @@
   color: #fff;
 }
 
-/* Enforce equal card heights in row */
-
-/* Responsive: stack cards vertically, decrease gap */
 @media (width <= 900px) {
   .cards.cards3 ul {
     grid-template-columns: 1fr;
@@ -149,5 +141,155 @@
 
   .cards.cards3 ul > li {
     min-width: 0;
+  }
+}
+
+
+.cards.cards11 {
+  background: #f6f6f6;
+  color: #0c2145;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+/* Use grid for two-column layout, cards grouped and centered as a unit */
+.cards.cards11 ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+/* Card items: keep compact, avoid stretching */
+.cards.cards11 ul > li {
+  max-width: 420px;
+  min-width: 260px;
+  width: 100%;
+  display: flex;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
+
+/* Left card: image left, text right, tight grouping */
+.cards.cards11 ul > li:first-child {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cards.cards11 ul > li:first-child .cards-card-image {
+  margin: 0 16px 0 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.cards.cards11 ul > li:first-child .cards-card-image img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Left card body: vertically centered with image */
+.cards.cards11 ul > li:first-child .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  min-width: 0;
+  width: 100%;
+}
+
+/* Right card: image above text, tight grouping */
+.cards.cards11 ul > li:nth-child(2) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards.cards11 ul > li:nth-child(2) .cards-card-image {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.cards.cards11 ul > li:nth-child(2) .cards-card-image img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Right card body: left aligned */
+.cards.cards11 ul > li:nth-child(2) .cards-card-body {
+  text-align: left;
+  width: 100%;
+  padding: 0;
+}
+
+/* Card content: left aligned, compact line heights */
+.cards.cards11 .cards-card-body {
+  color: #0c2145;
+  text-align: left;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.cards.cards11 .cards-card-body p {
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.cards.cards11 .cards-card-body p strong {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0c2145;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Responsive: stack cards vertically, center on smaller screens */
+@media (width <= 900px) {
+  .cards.cards11 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards.cards11 ul > li,
+  .cards.cards11 ul > li:first-child,
+  .cards.cards11 ul > li:nth-child(2) {
+    max-width: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards.cards11 ul > li:first-child .cards-card-image {
+    margin-right: 0;
+    margin-bottom: 12px;
   }
 }
