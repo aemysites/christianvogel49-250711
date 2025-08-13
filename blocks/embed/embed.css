@@ -1,13 +1,29 @@
+/* stylelint-disable no-descending-specificity */
 .embed {
-  width: unset;
+  width: 100%;
   text-align: center;
-  max-width: 800px;
-  margin: 32px auto;
+  max-width: 1200px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: var(--background-color);
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgb(34 49 63 / 8%);
+  min-height: 360px;
+  box-sizing: border-box;
+  padding: 0;
+  gap: 40px;
 }
 
 .embed > div {
   display: flex;
   justify-content: center;
+  flex: 2 1 0;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .embed.embed-twitter .twitter-tweet-rendered {
@@ -17,8 +33,13 @@
 
 .embed .embed-placeholder {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16/9;
   position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgb(34 49 63 / 13%);
+  background: #000;
+  margin-bottom: 0;
 }
 
 .embed .embed-placeholder > * {
@@ -37,14 +58,22 @@
 
 .embed .embed-placeholder-play button {
   box-sizing: border-box;
-  position: relative;
-  display: block;
-  transform: scale(3);
-  width: 22px;
-  height: 22px;
-  border: 2px solid;
-  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  transform: translate(-50%, -50%) scale(2.2);
+  width: 48px;
+  height: 48px;
+  border: 3px solid #c6ff00;
+  border-radius: 50%;
   padding: 0;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  color: #22313f;
+  box-shadow: 0 2px 12px rgb(34 49 63 / 11%);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 .embed .embed-placeholder-play button::before {
@@ -59,4 +88,51 @@
   border-left: 6px solid;
   top: 4px;
   left: 7px;
+}
+
+/* Main video/image area: left side */
+
+/* Sidebar: right side, visible if present */
+.embed > div + div {
+  flex: 1 1 320px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+/* Media aspect and appearance */
+
+.embed .embed-placeholder img,
+.embed .embed-placeholder video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 18px;
+  background: #000;
+}
+
+/* Play button styling and centering */
+
+/* Responsive: Stack columns vertically on small screens */
+@media (width <= 900px) {
+  .embed {
+    flex-direction: column;
+    gap: 0;
+    max-width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 28px 0 0;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .embed > div,
+  .embed > div + div {
+    width: 100%;
+    min-width: 0;
+    align-items: flex-start;
+  }
 }
