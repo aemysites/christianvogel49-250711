@@ -1533,6 +1533,55 @@
           "uuid": "717b0299-39-e560ed49364ad7cfe614f385591ddd308bc0d99b",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[24]/div[1]/div[1]/div[6]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/historie-15914",
+          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
+          "uuid": "0900ff0c-08-4096274a0b7a4baa6f4783c8b3a9cd32de184fc2",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/historie-15914",
+          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
+          "uuid": "0900ff0c-11-c4040cadee72eee63c4ba7c4f79f93e02fc1412d",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/investoren-15766",
+          "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
+          "uuid": "48bec51d-15-94ebdbf2d7445117354305d9b4609045504a43c0",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-13-94ebdbf2d7445117354305d9b4609045504a43c0",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/menschenrechte-16108",
+          "urlHash": "aa4f5e4b3d2c1330400e9ce477afcea790538490",
+          "uuid": "aa4f5e4b-18-dd1eb8582bf9d0b53e02b644b47df03cf9daf4c1",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[28]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/praesentationen-15715",
+          "urlHash": "b467ac80ea31743e86822873fa3311eb0d6d4257",
+          "uuid": "b467ac80-07-a3f72063df4dab536419b53f2907eae33cece56a",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-controversies-15846",
+          "urlHash": "e8907a438db56a75e777c054d16c0ef0257593fe",
+          "uuid": "e8907a43-07-03fb06b09b26708e0a88bb08229d160b2761fbc4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-1"
         }
       ]
     },
@@ -1765,64 +1814,6 @@
           "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
           "uuid": "53d8cb3e-01-a3ba83865713fcd3e742327c1b85dfdca9c82d9a",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[1]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 13,
-      "source": "Cards",
-      "target": "Cards (cards13)",
-      "key": "cards13",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/historie-15914",
-          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
-          "uuid": "0900ff0c-08-4096274a0b7a4baa6f4783c8b3a9cd32de184fc2",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/historie-15914",
-          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
-          "uuid": "0900ff0c-11-c4040cadee72eee63c4ba7c4f79f93e02fc1412d",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/investoren-15766",
-          "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
-          "uuid": "48bec51d-15-94ebdbf2d7445117354305d9b4609045504a43c0",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-13-94ebdbf2d7445117354305d9b4609045504a43c0",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/menschenrechte-16108",
-          "urlHash": "aa4f5e4b3d2c1330400e9ce477afcea790538490",
-          "uuid": "aa4f5e4b-18-dd1eb8582bf9d0b53e02b644b47df03cf9daf4c1",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[28]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/praesentationen-15715",
-          "urlHash": "b467ac80ea31743e86822873fa3311eb0d6d4257",
-          "uuid": "b467ac80-07-a3f72063df4dab536419b53f2907eae33cece56a",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/esg-controversies-15846",
-          "urlHash": "e8907a438db56a75e777c054d16c0ef0257593fe",
-          "uuid": "e8907a43-07-03fb06b09b26708e0a88bb08229d160b2761fbc4",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[1]",
           "section": "section-1"
         }
       ]
