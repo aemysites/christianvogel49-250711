@@ -1603,6 +1603,13 @@
           "uuid": "e6b2ab4a-05-b502e46aec2d7e694475284f89230f3024a55868",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
           "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/warum-in-die-volkswagen-group-investieren-18603",
+          "urlHash": "935ffe4e29836d1fd9f880db8d54894c4e5c7a9d",
+          "uuid": "935ffe4e-08-59cb2ff023be9b46b9eb1ce861a0f4196cfc232f",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[12]/div[1]/div[1]/div[4]",
+          "section": "section-2"
         }
       ]
     },
@@ -5828,22 +5835,6 @@
           "uuid": "6fddde4e-07-5e8761c0e2771839a78d4649c1443c0c610b2348",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
           "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 155,
-      "source": "Cards",
-      "target": "Cards (cards155)",
-      "key": "cards155",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/warum-in-die-volkswagen-group-investieren-18603",
-          "urlHash": "935ffe4e29836d1fd9f880db8d54894c4e5c7a9d",
-          "uuid": "935ffe4e-08-59cb2ff023be9b46b9eb1ce861a0f4196cfc232f",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[12]/div[1]/div[1]/div[4]",
-          "section": "section-2"
         }
       ]
     },
