@@ -372,13 +372,11 @@
   justify-content: flex-start;
 }
 
-/* First child (spacer) - keep minimal space */
 .hero.hero17 > div:first-child {
   flex: 0 0 16px;
   min-width: 16px;
 }
 
-/* Main content column */
 .hero.hero17 > div:last-child {
   flex: 1 1 0;
   display: flex;
@@ -387,7 +385,6 @@
   justify-content: flex-start;
 }
 
-/* Top row: headline and button side by side, description below */
 .hero.hero17 > div:last-child > div {
   display: flex;
   flex-direction: row;
@@ -398,7 +395,6 @@
   width: 100%;
 }
 
-/* Headline styling */
 .hero.hero17 h2 {
   color: #22343d;
   font-size: 2rem;
@@ -411,7 +407,6 @@
   min-width: 0;
 }
 
-/* Button container right-aligned in the row */
 .hero.hero17 .button-container {
   margin: 0;
   text-align: right;
@@ -419,7 +414,6 @@
   align-self: flex-start;
 }
 
-/* CTA button styling */
 .hero.hero17 .button-container .button {
   background-color: #c6ff00;
   color: #22343d;
@@ -435,12 +429,10 @@
   margin: 0;
 }
 
-/* Description below the top row, full width */
 .hero.hero17 > div:last-child > p:not(.button-container) {
     margin-top: 1rem;
   }
 
-/* Responsive stacking for small screens */
 @media (width <= 900px) {
   .hero.hero17 {
     padding: 1.5rem 1rem;
@@ -471,5 +463,151 @@
 
   .hero.hero17 > div:last-child > p:not(.button-container) {
     margin-top: 1rem;
+  }
+}
+
+
+.hero.hero31 {
+  background: #fff;
+  padding: 32px 24px;
+}
+
+/* Hide the empty first div */
+.hero.hero31 > div:first-child {
+  display: none;
+}
+
+/* Create a flex row layout for the main inner block */
+.hero.hero31 > div:last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Text content column */
+.hero.hero31 > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 600px;
+
+  /* Add right padding so button doesn't overlap content */
+  padding-right: 185px;
+  box-sizing: border-box;
+}
+
+/* Button: float right, align with heading using absolute positioning */
+.hero.hero31 > div:last-child .button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  min-width: 145px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button styles */
+.hero.hero31 > div:last-child .button-container .button {
+  background: #D5FF00;
+  color: #24414A;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-family: var(--body-font-family);
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 8px 28px;
+  box-shadow: none;
+  margin: 0;
+  transition: background 0.2s;
+  display: inline-block;
+  min-width: 120px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hero.hero31 > div:last-child .button-container .button:hover,
+.hero.hero31 > div:last-child .button-container .button:focus {
+  background: #caf200;
+  color: #24414A;
+  text-decoration: underline;
+}
+
+/* Typography and bullets */
+.hero.hero31 h2 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  color: #24414A;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.hero.hero31 p:not(.button-container) {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #24414A;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+}
+
+.hero.hero31 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.hero.hero31 ul li {
+  position: relative;
+  padding-left: 22px;
+  color: #24414A;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-family: var(--body-font-family);
+  line-height: 1.6;
+}
+
+/* Custom bullet using pseudo-element */
+.hero.hero31 ul li::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00A6A0;
+}
+
+/* Responsive: stack vertically and reset button to normal flow */
+@media (width <= 700px) {
+  .hero.hero31 {
+    padding: 18px 8px;
+  }
+
+  .hero.hero31 > div:last-child {
+    flex-direction: column;
+    max-width: 100%;
+    position: static;
+  }
+
+  .hero.hero31 > div:last-child > div {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .hero.hero31 > div:last-child .button-container {
+    position: static;
+    margin-top: 16px;
+    width: 100%;
+    align-items: flex-start;
   }
 }
