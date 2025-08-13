@@ -256,155 +256,6 @@
 }
 
 
-.columns.columns15 {
-  background: #fff;
-  border-radius: 24px;
-  box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
-  margin: 0 auto;
-  max-width: 900px;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-  min-height: 360px;
-  box-sizing: border-box;
-}
-
-.columns.columns15 > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  height: 100%;
-  min-height: 0;
-  gap: 0;
-}
-
-.columns.columns15 .columns-img-col {
-  flex: 0 0 42%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 0 2vw 0 0;
-  box-sizing: border-box;
-  min-width: 260px;
-}
-
-.columns.columns15 .columns-img-col img {
-  width: 100%;
-  max-width: 420px;
-  max-height: 260px;
-  object-fit: cover;
-  aspect-ratio: 16 / 9;
-  border-radius: 18px;
-  margin: 0;
-  display: block;
-}
-
-.columns.columns15 > div > div:not(.columns-img-col) {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0 2vw;
-  min-width: 320px;
-  gap: 0.75rem;
-  box-sizing: border-box;
-}
-
-.columns.columns15 > div > div:not(.columns-img-col) h2 {
-  color: #2d3b47;
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 0 0 0.75rem;
-  line-height: 1.1;
-  text-align: left;
-  max-width: 90%;
-}
-
-.columns.columns15 > div > div:not(.columns-img-col) .button-container {
-  margin-bottom: 0.75rem;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.columns.columns15 > div > div:not(.columns-img-col) .button {
-  background: #b6f800;
-  color: #2d3b47;
-  border-radius: 20px;
-  padding: 0.6em 1.5em;
-  font-size: 1.07rem;
-  font-weight: 500;
-  margin: 0;
-  box-shadow: 0 2px 8px rgb(182 248 0 / 12%);
-  border: none;
-  transition: background 0.15s;
-  white-space: nowrap;
-  max-width: unset;
-}
-
-.columns.columns15 > div > div:not(.columns-img-col) .button:hover,
-.columns.columns15 > div > div:not(.columns-img-col) .button:focus {
-  background: #a0e000;
-}
-
-.columns.columns15 > div > div:not(.columns-img-col) p {
-  color: #222;
-  font-size: 1rem;
-  margin: 0;
-  line-height: 1.5;
-  font-family: var(--body-font-family);
-  max-width: 34em;
-}
-
-@media (width <= 800px) {
-  .columns.columns15 {
-    border-radius: 18px;
-    max-width: 100vw;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .columns.columns15 > div {
-    flex-direction: column;
-    align-items: stretch;
-    min-height: unset;
-  }
-
-  .columns.columns15 .columns-img-col {
-    padding: 0 0 1.5rem;
-    min-width: 0;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .columns.columns15 .columns-img-col img {
-    border-radius: 18px 18px 0 0;
-    max-width: 100vw;
-    width: 100%;
-    max-height: 180px;
-    margin: 0 auto;
-  }
-
-  .columns.columns15 > div > div:not(.columns-img-col) {
-    padding: 1.25rem;
-    border-radius: 0 0 18px 18px;
-    min-width: 0;
-    gap: 0.65rem;
-    align-items: flex-start;
-  }
-}
-
-.columns.columns15 .image-btn,
-.columns.columns15 .blue-pill-btn,
-.columns.columns15 .image-overlay {
-  display: none;
-}
-
-
 .columns.columns16 {
   background: #062c37;
   border-radius: 0;
@@ -413,7 +264,6 @@
   box-sizing: border-box;
 }
 
-/* Ensure the row of columns is flush to the top, tight on left/right */
 .columns.columns16 > div {
   display: flex;
   flex-direction: row;
@@ -424,7 +274,6 @@
   width: 100%;
 }
 
-/* Inner columns fill space, flush top, no extra margin/padding */
 .columns.columns16 > div > div {
   flex: 1;
   margin: 0;
@@ -434,14 +283,12 @@
   justify-content: flex-start;
 }
 
-/* Remove all top margin, minimal left padding for bullets; keep tight to edge */
 .columns.columns16 ul {
   margin: 0;
   padding-left: 12px;
   list-style-type: disc;
 }
 
-/* Tight vertical spacing between bullets, minimal margin below */
 .columns.columns16 li {
   color: #e3e8e6;
   font-size: 12px;
@@ -454,16 +301,197 @@
   margin-bottom: 0;
 }
 
-/* Links: light color and underline */
 .columns.columns16 a {
   color: #e3e8e6;
   text-decoration: underline;
 }
 
-/* Responsive: stack columns vertically on smaller screens */
 @media (width <= 700px) {
   .columns.columns16 > div {
     flex-direction: column;
     gap: 16px;
+  }
+}
+
+
+.columns.columns15 {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+  margin: 0 auto;
+  max-width: 1260px;
+  width: 100%;
+  padding: 0 3rem; /* Remove top/bottom padding, only horizontal */
+  display: block;
+  min-height: 380px; /* Ensure the block is tall enough for immersive image */
+  overflow: hidden;
+}
+
+.columns.columns15 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 48px;
+  width: 100%;
+  min-height: 380px;
+  height: 100%;
+}
+
+.columns.columns15 .columns-img-col {
+  flex: 0 0 48%;
+  min-width: 0;
+  max-width: none;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.columns.columns15 .columns-img-col picture,
+.columns.columns15 .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  object-fit: cover;
+  border-radius: 24px 0 0 24px;
+  margin: 0;
+  min-width: 0;
+  max-width: none;
+  display: block;
+}
+
+.columns.columns15 > div > div:not(.columns-img-col) {
+  flex: 1 1 52%;
+  min-width: 0;
+  max-width: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2vw;
+  gap: 1.25rem;
+  box-sizing: border-box;
+}
+
+.columns.columns15 > div > div:not(.columns-img-col) h2 {
+  color: #263238;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0 0 1.25rem;
+  line-height: 1.1;
+  text-align: left;
+  max-width: 90%;
+  font-family: var(--heading-font-family);
+}
+
+.columns.columns15 > div > div:not(.columns-img-col) .button-container {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.columns.columns15 > div > div:not(.columns-img-col) .button {
+  background: #c8f800;
+  color: #263238;
+  border-radius: 20px;
+  padding: 0.7em 2em;
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin: 0;
+  box-shadow: 0 2px 8px rgb(200 248 0 / 12%);
+  border: none;
+  transition: background 0.15s;
+  white-space: nowrap;
+  max-width: unset;
+  line-height: 1.3;
+}
+
+.columns.columns15 > div > div:not(.columns-img-col) .button:hover,
+.columns.columns15 > div > div:not(.columns-img-col) .button:focus {
+  background: #b6e800;
+}
+
+.columns.columns15 > div > div:not(.columns-img-col) p {
+  color: #263238;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
+  max-width: 34em;
+}
+
+/* Responsive adjustments */
+@media (width <= 1100px) {
+  .columns.columns15 {
+    max-width: 98vw;
+    padding: 0 0.5rem;
+  }
+
+  .columns.columns15 > div {
+    gap: 24px;
+    min-height: 340px;
+  }
+
+  .columns.columns15 .columns-img-col picture,
+  .columns.columns15 .columns-img-col img {
+    min-height: 220px;
+  }
+}
+
+@media (width <= 800px) {
+  .columns.columns15 {
+    border-radius: 18px;
+    padding: 0 0.25rem;
+    min-height: 0;
+  }
+
+  .columns.columns15 > div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    min-height: unset;
+    height: auto;
+  }
+
+  .columns.columns15 .columns-img-col {
+    min-width: 0;
+    max-width: 100vw;
+    justify-content: center;
+    padding: 0;
+    height: auto;
+  }
+
+  .columns.columns15 .columns-img-col picture,
+  .columns.columns15 .columns-img-col img {
+    border-radius: 18px 18px 0 0;
+    width: 100%;
+    max-width: 100vw;
+    min-width: 0;
+    height: 180px;
+    min-height: 0;
+  }
+
+  .columns.columns15 > div > div:not(.columns-img-col) {
+    padding: 1.25rem;
+    min-width: 0;
+    max-width: 100vw;
+    gap: 0.65rem;
+    align-items: flex-start;
+    height: auto;
+  }
+}
+
+@media (width <= 600px) {
+  .columns.columns15 {
+    border-radius: 12px;
+    max-width: 100vw;
+    padding: 0;
+  }
+
+  .columns.columns15 > div > div:not(.columns-img-col) {
+    padding: 0.85rem;
   }
 }
