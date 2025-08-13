@@ -1582,6 +1582,20 @@
           "uuid": "e8907a43-07-03fb06b09b26708e0a88bb08229d160b2761fbc4",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[1]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/corporate-governance-15789",
+          "urlHash": "662338a4e9b6dd8e2f2a62c6723d939ab30fafb9",
+          "uuid": "662338a4-08-6c8b4ee5ded8f4039375c7130b6f7e9850c8be98",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/integritaet-und-compliance-15705",
+          "urlHash": "e8788a0a921fc3732319f409b4186f993d6d9767",
+          "uuid": "e8788a0a-08-e53c3e01547df71259006c49566dd41c84c1d739",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/section[1]/div[2]",
+          "section": "section-1"
         }
       ]
     },
@@ -4568,29 +4582,6 @@
           "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
           "uuid": "2242b64e-16-278e01c47747e9e5d529c37f47600d673cb551bd",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 78,
-      "source": "Cards",
-      "target": "Cards (cards78)",
-      "key": "cards78",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/corporate-governance-15789",
-          "urlHash": "662338a4e9b6dd8e2f2a62c6723d939ab30fafb9",
-          "uuid": "662338a4-08-6c8b4ee5ded8f4039375c7130b6f7e9850c8be98",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/integritaet-und-compliance-15705",
-          "urlHash": "e8788a0a921fc3732319f409b4186f993d6d9767",
-          "uuid": "e8788a0a-08-e53c3e01547df71259006c49566dd41c84c1d739",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/section[1]/div[2]",
           "section": "section-1"
         }
       ]
