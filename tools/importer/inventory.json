@@ -1277,6 +1277,153 @@
           "uuid": "fb79abca-05-b502e46aec2d7e694475284f89230f3024a55868",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
+          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
+          "uuid": "2242b64e-03-d3986e148cbd6d7adc23ed9477d3c5c947dab057",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/business-18276",
+          "urlHash": "04aacb43ff9573012f775b29c74f27d433811b3c",
+          "uuid": "04aacb43-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
+          "uuid": "9bcd0d41-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
+          "uuid": "9bcd0d41-07-4767b10c16a838b71c9a6c0ec4088fedfbd1ef4e",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
+          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
+          "uuid": "9bcd0d41-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/standorte-der-volkswagen-group-17481",
+          "urlHash": "b2f04bc63048580c6c7a0c9c4b462ef290a779d3",
+          "uuid": "b2f04bc6-10-3d7326aed22e2f4a8f6c7e7110d36414d8fc1779",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/natur-18174",
+          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
+          "uuid": "c3219b33-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/gesellschaft-18271",
+          "urlHash": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9",
+          "uuid": "e555465e-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-08-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-09-89e54dff048b00dbdad4221df17a8e615d00e545",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeitsstrategie-18157",
+          "urlHash": "c172e030723cce843d47345301528b2759ab700a",
+          "uuid": "c172e030-06-4ccc58b9be4249244b17765cc205dcfef859aa98",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/volkswagen-nutzfahrzeuge-15999",
+          "urlHash": "02b47807f5c9e64d6a1ce5db86d16872f317ef69",
+          "uuid": "02b47807-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/ducati-16007",
+          "urlHash": "25318c3ade10760cc4a838f7f63d87db7b95609c",
+          "uuid": "25318c3a-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/traton-group-16021",
+          "urlHash": "c926d6179d4b7c2c736ec0880744be58d10bfe33",
+          "uuid": "c926d617-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/moia-16058",
+          "urlHash": "cb591dfb73af4d5f377b4a59151bd1e7d8e20bd5",
+          "uuid": "cb591dfb-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeitsstrategie-18157",
+          "urlHash": "c172e030723cce843d47345301528b2759ab700a",
+          "uuid": "c172e030-08-12ce60854995d4d0ef74a27a287f2e265bd238bf",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[14]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
+          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
+          "uuid": "28bcd12e-05-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
+          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
+          "uuid": "28bcd12e-09-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/soziales-engagement-16086",
+          "urlHash": "7167b6a55279e301e98452a42c5c5823fa74e56c",
+          "uuid": "7167b6a5-05-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
+          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
+          "uuid": "e75e6dd7-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
+          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
+          "uuid": "e75e6dd7-06-bcea9653c476d09ebc79b6228885cae56f04e0ae",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[10]",
+          "section": "section-6"
         }
       ]
     },
@@ -1287,13 +1434,6 @@
       "target": "Columns (columns2)",
       "key": "columns2",
       "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
-          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
-          "uuid": "2242b64e-03-d3986e148cbd6d7adc23ed9477d3c5c947dab057",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[4]",
-          "section": "section-1"
-        },
         {
           "url": "https://www.volkswagen-group.com/de/konzerngrundsaetze-15957",
           "urlHash": "6791f4f0258b29f3518c3872c7d94cc11cdb3696",
@@ -1428,6 +1568,90 @@
           "uuid": "717b0299-39-e560ed49364ad7cfe614f385591ddd308bc0d99b",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[24]/div[1]/div[1]/div[6]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/historie-15914",
+          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
+          "uuid": "0900ff0c-08-4096274a0b7a4baa6f4783c8b3a9cd32de184fc2",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/historie-15914",
+          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
+          "uuid": "0900ff0c-11-c4040cadee72eee63c4ba7c4f79f93e02fc1412d",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/investoren-15766",
+          "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
+          "uuid": "48bec51d-15-94ebdbf2d7445117354305d9b4609045504a43c0",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-13-94ebdbf2d7445117354305d9b4609045504a43c0",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/menschenrechte-16108",
+          "urlHash": "aa4f5e4b3d2c1330400e9ce477afcea790538490",
+          "uuid": "aa4f5e4b-18-dd1eb8582bf9d0b53e02b644b47df03cf9daf4c1",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[28]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/praesentationen-15715",
+          "urlHash": "b467ac80ea31743e86822873fa3311eb0d6d4257",
+          "uuid": "b467ac80-07-a3f72063df4dab536419b53f2907eae33cece56a",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/esg-controversies-15846",
+          "urlHash": "e8907a438db56a75e777c054d16c0ef0257593fe",
+          "uuid": "e8907a43-07-03fb06b09b26708e0a88bb08229d160b2761fbc4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/corporate-governance-15789",
+          "urlHash": "662338a4e9b6dd8e2f2a62c6723d939ab30fafb9",
+          "uuid": "662338a4-08-6c8b4ee5ded8f4039375c7130b6f7e9850c8be98",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/integritaet-und-compliance-15705",
+          "urlHash": "e8788a0a921fc3732319f409b4186f993d6d9767",
+          "uuid": "e8788a0a-08-e53c3e01547df71259006c49566dd41c84c1d739",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/section[1]/div[2]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/basisdaten-16024",
+          "urlHash": "e6b2ab4a5f8e1d7c6dc8742c8fff9a36f9efc74f",
+          "uuid": "e6b2ab4a-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/warum-in-die-volkswagen-group-investieren-18603",
+          "urlHash": "935ffe4e29836d1fd9f880db8d54894c4e5c7a9d",
+          "uuid": "935ffe4e-08-59cb2ff023be9b46b9eb1ce861a0f4196cfc232f",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[12]/div[1]/div[1]/div[4]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzberichte-18134",
+          "urlHash": "717b02992e83dbabc5f4bb12ad8904bc46f8572d",
+          "uuid": "717b0299-05-62fc7fdb80f43dea697124b3cfab8501ed2fd834",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[4]/div[1]/div[1]/div[6]",
+          "section": "section-2"
         }
       ]
     },
@@ -1509,6 +1733,13 @@
           "uuid": "9bcd0d41-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/natur-18174",
+          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
+          "uuid": "c3219b33-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
+          "section": "section-1"
         }
       ]
     },
@@ -1572,64 +1803,6 @@
           "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
           "uuid": "48bec51d-18-e9c98ad7e854f7dd35a8702a8913778f329320d1",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[22]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 10,
-      "source": "Columns",
-      "target": "Columns (columns10)",
-      "key": "columns10",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/business-18276",
-          "urlHash": "04aacb43ff9573012f775b29c74f27d433811b3c",
-          "uuid": "04aacb43-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
-          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
-          "uuid": "9bcd0d41-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
-          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
-          "uuid": "9bcd0d41-07-4767b10c16a838b71c9a6c0ec4088fedfbd1ef4e",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unsere-belegschaft-18270",
-          "urlHash": "9bcd0d412eea9c30aee834a140f7ec7073b98251",
-          "uuid": "9bcd0d41-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/standorte-der-volkswagen-group-17481",
-          "urlHash": "b2f04bc63048580c6c7a0c9c4b462ef290a779d3",
-          "uuid": "b2f04bc6-10-3d7326aed22e2f4a8f6c7e7110d36414d8fc1779",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/natur-18174",
-          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
-          "uuid": "c3219b33-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/gesellschaft-18271",
-          "urlHash": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9",
-          "uuid": "e555465e-05-771e3a312da34efc87e2bca6ac22bc20d583abd9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[4]",
           "section": "section-1"
         }
       ]
@@ -1711,87 +1884,6 @@
           "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
           "uuid": "53d8cb3e-01-a3ba83865713fcd3e742327c1b85dfdca9c82d9a",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[1]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 13,
-      "source": "Cards",
-      "target": "Cards (cards13)",
-      "key": "cards13",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/historie-15914",
-          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
-          "uuid": "0900ff0c-08-4096274a0b7a4baa6f4783c8b3a9cd32de184fc2",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/historie-15914",
-          "urlHash": "0900ff0cd5e6d220630ddcc4db03e09490b06d0e",
-          "uuid": "0900ff0c-11-c4040cadee72eee63c4ba7c4f79f93e02fc1412d",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/investoren-15766",
-          "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
-          "uuid": "48bec51d-15-94ebdbf2d7445117354305d9b4609045504a43c0",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-13-94ebdbf2d7445117354305d9b4609045504a43c0",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[20]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/menschenrechte-16108",
-          "urlHash": "aa4f5e4b3d2c1330400e9ce477afcea790538490",
-          "uuid": "aa4f5e4b-18-dd1eb8582bf9d0b53e02b644b47df03cf9daf4c1",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[28]/div[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/praesentationen-15715",
-          "urlHash": "b467ac80ea31743e86822873fa3311eb0d6d4257",
-          "uuid": "b467ac80-07-a3f72063df4dab536419b53f2907eae33cece56a",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/esg-controversies-15846",
-          "urlHash": "e8907a438db56a75e777c054d16c0ef0257593fe",
-          "uuid": "e8907a43-07-03fb06b09b26708e0a88bb08229d160b2761fbc4",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]/div[1]/div[1]/div[1]/div[4]/div[1]/section[1]/div[2]/div[1]/div[1]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 14,
-      "source": "Columns",
-      "target": "Columns (columns14)",
-      "key": "columns14",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-08-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-09-89e54dff048b00dbdad4221df17a8e615d00e545",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
           "section": "section-1"
         }
       ]
@@ -1924,6 +2016,13 @@
           "uuid": "df9d885d-03-11a0235cfb98d43555c69945b76854c7e6854594",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[4]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzberichte-und-publikationen-16121",
+          "urlHash": "df9d885dff9a5c261fd85fd2b9b66ab4f25fd35f",
+          "uuid": "df9d885d-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
+          "section": "section-1"
         }
       ]
     },
@@ -1938,22 +2037,6 @@
           "url": "https://www.volkswagen-group.com/de/medienkontakte-15997",
           "urlHash": "ecaa44e4f1bf258ed4eed7d75494ab3764ed4c41",
           "uuid": "ecaa44e4-06-4ccc58b9be4249244b17765cc205dcfef859aa98",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 22,
-      "source": "Columns",
-      "target": "Columns (columns22)",
-      "key": "columns22",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeitsstrategie-18157",
-          "urlHash": "c172e030723cce843d47345301528b2759ab700a",
-          "uuid": "c172e030-06-4ccc58b9be4249244b17765cc205dcfef859aa98",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]",
           "section": "section-1"
         }
@@ -1999,6 +2082,41 @@
           "urlHash": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9",
           "uuid": "e555465e-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
+          "uuid": "09cf2574-09-89e54dff048b00dbdad4221df17a8e615d00e545",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
+          "uuid": "09cf2574-10-c8aab59f9a934489f7f7d65b43937c208158e886",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
+          "uuid": "09cf2574-13-e9c98ad7e854f7dd35a8702a8913778f329320d1",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[22]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
+          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
+          "uuid": "2242b64e-11-0db5e01347036cb165c815d5dcfdefb06e49c110",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-10-c8aab59f9a934489f7f7d65b43937c208158e886",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
           "section": "section-1"
         }
       ]
@@ -2660,6 +2778,20 @@
           "urlHash": "2f5f0b1bb698c1827cabd25fd7f6ae26122679f4",
           "uuid": "2f5f0b1b-07-8413157914bc112b211c9c9080bbfa9bd1ec2631",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[8]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/investoren-15766",
+          "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
+          "uuid": "48bec51d-10-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/livestream-videos-16023",
+          "urlHash": "dc93e8b5c0e3c2492ea45c4e44d575996c1eb575",
+          "uuid": "dc93e8b5-10-12ce60854995d4d0ef74a27a287f2e265bd238bf",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[14]",
           "section": "section-1"
         }
       ]
@@ -3926,80 +4058,6 @@
       ]
     },
     {
-      "name": "Columns",
-      "cluster": 49,
-      "source": "Columns",
-      "target": "Columns (columns49)",
-      "key": "columns49",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/volkswagen-nutzfahrzeuge-15999",
-          "urlHash": "02b47807f5c9e64d6a1ce5db86d16872f317ef69",
-          "uuid": "02b47807-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/ducati-16007",
-          "urlHash": "25318c3ade10760cc4a838f7f63d87db7b95609c",
-          "uuid": "25318c3a-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/traton-group-16021",
-          "urlHash": "c926d6179d4b7c2c736ec0880744be58d10bfe33",
-          "uuid": "c926d617-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/moia-16058",
-          "urlHash": "cb591dfb73af4d5f377b4a59151bd1e7d8e20bd5",
-          "uuid": "cb591dfb-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 50,
-      "source": "Columns",
-      "target": "Columns (columns50)",
-      "key": "columns50",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
-          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
-          "uuid": "09cf2574-09-89e54dff048b00dbdad4221df17a8e615d00e545",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
-          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
-          "uuid": "09cf2574-10-c8aab59f9a934489f7f7d65b43937c208158e886",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
-          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
-          "uuid": "09cf2574-13-e9c98ad7e854f7dd35a8702a8913778f329320d1",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[22]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
-          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
-          "uuid": "2242b64e-11-0db5e01347036cb165c815d5dcfdefb06e49c110",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
       "name": "Cards",
       "cluster": 51,
       "source": "Cards",
@@ -4099,6 +4157,13 @@
           "urlHash": "e555465eea44aa0e06aa5cf84cb597ca32fa01d9",
           "uuid": "e555465e-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/business-18276",
+          "urlHash": "04aacb43ff9573012f775b29c74f27d433811b3c",
+          "uuid": "04aacb43-08-4ccc58b9be4249244b17765cc205dcfef859aa98",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]",
           "section": "section-1"
         }
       ]
@@ -4460,66 +4525,6 @@
     },
     {
       "name": "Columns",
-      "cluster": 72,
-      "source": "Columns",
-      "target": "Columns (columns72)",
-      "key": "columns72",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
-          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
-          "uuid": "28bcd12e-05-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
-          "section": "section-6"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/unternehmen-15765",
-          "urlHash": "28bcd12ea3a9072b6255038bb6849a1245739668",
-          "uuid": "28bcd12e-09-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
-          "section": "section-6"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/soziales-engagement-16086",
-          "urlHash": "7167b6a55279e301e98452a42c5c5823fa74e56c",
-          "uuid": "7167b6a5-05-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
-          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
-          "uuid": "e75e6dd7-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/esg-performance-und-reporting-16040",
-          "urlHash": "e75e6dd719f7eee34c4786e6b8fa741396848134",
-          "uuid": "e75e6dd7-06-bcea9653c476d09ebc79b6228885cae56f04e0ae",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[10]",
-          "section": "section-6"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 73,
-      "source": "Columns",
-      "target": "Columns (columns73)",
-      "key": "columns73",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/business-18276",
-          "urlHash": "04aacb43ff9573012f775b29c74f27d433811b3c",
-          "uuid": "04aacb43-08-4ccc58b9be4249244b17765cc205dcfef859aa98",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
       "cluster": 74,
       "source": "Columns",
       "target": "Columns (columns74)",
@@ -4578,29 +4583,6 @@
           "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
           "uuid": "2242b64e-16-278e01c47747e9e5d529c37f47600d673cb551bd",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/div[4]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 78,
-      "source": "Cards",
-      "target": "Cards (cards78)",
-      "key": "cards78",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/corporate-governance-15789",
-          "urlHash": "662338a4e9b6dd8e2f2a62c6723d939ab30fafb9",
-          "uuid": "662338a4-08-6c8b4ee5ded8f4039375c7130b6f7e9850c8be98",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]",
-          "section": "section-2"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/integritaet-und-compliance-15705",
-          "urlHash": "e8788a0a921fc3732319f409b4186f993d6d9767",
-          "uuid": "e8788a0a-08-e53c3e01547df71259006c49566dd41c84c1d739",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/section[1]/div[2]",
           "section": "section-1"
         }
       ]
@@ -4723,22 +4705,6 @@
           "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
           "uuid": "48bec51d-11-89e54dff048b00dbdad4221df17a8e615d00e545",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 84,
-      "source": "Cards",
-      "target": "Cards (cards84)",
-      "key": "cards84",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/aktien-15791",
-          "urlHash": "2253baaddabf7dd3bded54f2271b89888539b019",
-          "uuid": "2253baad-06-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
           "section": "section-1"
         }
       ]
@@ -4955,22 +4921,6 @@
       ]
     },
     {
-      "name": "Cards",
-      "cluster": 96,
-      "source": "Cards",
-      "target": "Cards (cards96)",
-      "key": "cards96",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/finanzberichte-18134",
-          "urlHash": "717b02992e83dbabc5f4bb12ad8904bc46f8572d",
-          "uuid": "717b0299-05-62fc7fdb80f43dea697124b3cfab8501ed2fd834",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[4]/div[1]/div[1]/div[6]",
-          "section": "section-2"
-        }
-      ]
-    },
-    {
       "name": "Columns",
       "cluster": 97,
       "source": "Columns",
@@ -5100,22 +5050,13 @@
           "uuid": "2253baad-05-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
           "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 104,
-      "source": "Cards",
-      "target": "Cards (cards104)",
-      "key": "cards104",
-      "instances": [
+        },
         {
-          "url": "https://www.volkswagen-group.com/de/basisdaten-16024",
-          "urlHash": "e6b2ab4a5f8e1d7c6dc8742c8fff9a36f9efc74f",
-          "uuid": "e6b2ab4a-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "url": "https://www.volkswagen-group.com/de/aktien-15791",
+          "urlHash": "2253baaddabf7dd3bded54f2271b89888539b019",
+          "uuid": "2253baad-06-b502e46aec2d7e694475284f89230f3024a55868",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-2"
+          "section": "section-1"
         }
       ]
     },
@@ -5163,22 +5104,6 @@
           "urlHash": "8262a4798dd324367214668adab5ea008c9d04bc",
           "uuid": "8262a479-05-b502e46aec2d7e694475284f89230f3024a55868",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 108,
-      "source": "Cards",
-      "target": "Cards (cards108)",
-      "key": "cards108",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/finanzberichte-und-publikationen-16121",
-          "urlHash": "df9d885dff9a5c261fd85fd2b9b66ab4f25fd35f",
-          "uuid": "df9d885d-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
           "section": "section-1"
         }
       ]
@@ -5298,26 +5223,6 @@
           "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
           "uuid": "48bec51d-07-89ec6d31332c78ed69a5bf42abe712866bd980c1",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[10]/div[1]/div[1]/div[1]/div[2]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 116,
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/investoren-15766",
-          "urlHash": "48bec51d3fb889a2a3b3189e35c113ac03a3aeba",
-          "uuid": "48bec51d-10-9a1fde624b9cf69669a0808ccc3f3a6639af8ca9",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[14]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/livestream-videos-16023",
-          "urlHash": "dc93e8b5c0e3c2492ea45c4e44d575996c1eb575",
-          "uuid": "dc93e8b5-10-12ce60854995d4d0ef74a27a287f2e265bd238bf",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[14]",
           "section": "section-1"
         }
       ]
@@ -5595,38 +5500,6 @@
       ]
     },
     {
-      "name": "Columns",
-      "cluster": 134,
-      "source": "Columns",
-      "target": "Columns (columns134)",
-      "key": "columns134",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-10-c8aab59f9a934489f7f7d65b43937c208158e886",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 135,
-      "source": "Columns",
-      "target": "Columns (columns135)",
-      "key": "columns135",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeitsstrategie-18157",
-          "urlHash": "c172e030723cce843d47345301528b2759ab700a",
-          "uuid": "c172e030-08-12ce60854995d4d0ef74a27a287f2e265bd238bf",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[14]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
       "name": "Cards",
       "cluster": 136,
       "source": "Cards",
@@ -5638,22 +5511,6 @@
           "urlHash": "c172e030723cce843d47345301528b2759ab700a",
           "uuid": "c172e030-09-0db5e01347036cb165c815d5dcfdefb06e49c110",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 137,
-      "source": "Columns",
-      "target": "Columns (columns137)",
-      "key": "columns137",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/natur-18174",
-          "urlHash": "c3219b33e4760047022dc9b6fb0cb358a7b491c5",
-          "uuid": "c3219b33-10-876909c57fd71642fdeb84ed3e0cf7ecacdb95c0",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[12]",
           "section": "section-1"
         }
       ]
@@ -5924,22 +5781,6 @@
           "uuid": "6fddde4e-07-5e8761c0e2771839a78d4649c1443c0c610b2348",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
           "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 155,
-      "source": "Cards",
-      "target": "Cards (cards155)",
-      "key": "cards155",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/warum-in-die-volkswagen-group-investieren-18603",
-          "urlHash": "935ffe4e29836d1fd9f880db8d54894c4e5c7a9d",
-          "uuid": "935ffe4e-08-59cb2ff023be9b46b9eb1ce861a0f4196cfc232f",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[12]/div[1]/div[1]/div[4]",
-          "section": "section-2"
         }
       ]
     },
