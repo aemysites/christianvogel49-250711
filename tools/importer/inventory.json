@@ -2111,6 +2111,13 @@
           "uuid": "2242b64e-11-0db5e01347036cb165c815d5dcfdefb06e49c110",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
+          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
+          "uuid": "53d8cb3e-10-c8aab59f9a934489f7f7d65b43937c208158e886",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
+          "section": "section-1"
         }
       ]
     },
@@ -5506,22 +5513,6 @@
           "urlHash": "aa4f5e4b3d2c1330400e9ce477afcea790538490",
           "uuid": "aa4f5e4b-14-cd59b39626935c81339c8bcdce3c72eeafa9012c",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[22]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 134,
-      "source": "Columns",
-      "target": "Columns (columns134)",
-      "key": "columns134",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/nachhaltigkeit-15772",
-          "urlHash": "53d8cb3ea44d871bb59ac51c706cd625984f635a",
-          "uuid": "53d8cb3e-10-c8aab59f9a934489f7f7d65b43937c208158e886",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
           "section": "section-1"
         }
       ]
