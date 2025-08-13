@@ -228,7 +228,6 @@
   background: none;
 }
 
-/* Top image section: fill width, maintain aspect ratio */
 .hero.hero12 > div:first-child {
   position: relative;
   width: 100vw;
@@ -241,7 +240,6 @@
   background: none;
 }
 
-/* Ensure image fills container */
 .hero.hero12 picture,
 .hero.hero12 img {
   width: 100vw;
@@ -252,7 +250,6 @@
   z-index: 1;
 }
 
-/* Center overlay: make sure flex parent covers the whole image */
 .hero.hero12 > div:first-child > div {
   position: absolute;
   top: 0;
@@ -266,7 +263,6 @@
   pointer-events: none;
 }
 
-/* Headline overlay styling */
 .hero.hero12 > div:first-child > div > h1,
 .hero.hero12 > div:first-child > div > h1#medien {
   color: #fff;
@@ -286,7 +282,6 @@
   text-overflow: ellipsis;
 }
 
-/* Navigation bar below image */
 .hero.hero12 > div:last-child {
   width: 100vw;
   background: #fff;
@@ -300,7 +295,6 @@
   margin: 0;
 }
 
-/* Navigation links: horizontal, well spaced */
 .hero.hero12 > div:last-child p {
   display: flex;
   flex-direction: row;
@@ -313,7 +307,6 @@
   max-width: 1200px;
 }
 
-/* Individual nav links styling */
 .hero.hero12 > div:last-child a {
   color: #222;
   font-size: 1.07rem;
@@ -332,7 +325,6 @@
   text-decoration: underline;
 }
 
-/* Responsive for smaller screens */
 @media (width <= 700px) {
   .hero.hero12 > div:first-child {
     height: 140px;
@@ -354,7 +346,6 @@
   }
 }
 
-/* Remove unwanted margin from block-level elements in hero */
 .hero.hero12 h1,
 .hero.hero12 h2,
 .hero.hero12 h3,
@@ -364,4 +355,121 @@
 .hero.hero12 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+
+.hero.hero17 {
+  background-color: #f5f5f6;
+  border: 2px solid #17807b;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 2.5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* First child (spacer) - keep minimal space */
+.hero.hero17 > div:first-child {
+  flex: 0 0 16px;
+  min-width: 16px;
+}
+
+/* Main content column */
+.hero.hero17 > div:last-child {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+/* Top row: headline and button side by side, description below */
+.hero.hero17 > div:last-child > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* Headline styling */
+.hero.hero17 h2 {
+  color: #22343d;
+  font-size: 2rem;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.25;
+  text-align: left;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Button container right-aligned in the row */
+.hero.hero17 .button-container {
+  margin: 0;
+  text-align: right;
+  flex: 0 0 auto;
+  align-self: flex-start;
+}
+
+/* CTA button styling */
+.hero.hero17 .button-container .button {
+  background-color: #c6ff00;
+  color: #22343d;
+  border-radius: 8px;
+  padding: 0.7em 1.5em;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s;
+  margin: 0;
+}
+
+/* Description below the top row, full width */
+.hero.hero17 > div:last-child > p:not(.button-container) {
+    margin-top: 1rem;
+  }
+
+/* Responsive stacking for small screens */
+@media (width <= 900px) {
+  .hero.hero17 {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero.hero17 > div:first-child {
+    display: none;
+  }
+
+  .hero.hero17 > div:last-child > div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin-bottom: 1rem;
+  }
+
+  .hero.hero17 .button-container {
+    margin-top: 1.2rem;
+    text-align: left;
+    align-self: flex-start;
+  }
+
+  .hero.hero17 h2,
+  .hero.hero17 > div:last-child > p:not(.button-container) {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .hero.hero17 > div:last-child > p:not(.button-container) {
+    margin-top: 1rem;
+  }
 }
