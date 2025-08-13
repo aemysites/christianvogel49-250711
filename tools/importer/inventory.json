@@ -2083,6 +2083,34 @@
           "uuid": "e555465e-09-5e8761c0e2771839a78d4649c1443c0c610b2348",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/div[4]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
+          "uuid": "09cf2574-09-89e54dff048b00dbdad4221df17a8e615d00e545",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
+          "uuid": "09cf2574-10-c8aab59f9a934489f7f7d65b43937c208158e886",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
+          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
+          "uuid": "09cf2574-13-e9c98ad7e854f7dd35a8702a8913778f329320d1",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[22]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
+          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
+          "uuid": "2242b64e-11-0db5e01347036cb165c815d5dcfdefb06e49c110",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
+          "section": "section-1"
         }
       ]
     },
@@ -4018,43 +4046,6 @@
           "urlHash": "a95aa19a41e1d7b21f57eced537e7c83c153ee7c",
           "uuid": "a95aa19a-04-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 50,
-      "source": "Columns",
-      "target": "Columns (columns50)",
-      "key": "columns50",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
-          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
-          "uuid": "09cf2574-09-89e54dff048b00dbdad4221df17a8e615d00e545",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[16]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
-          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
-          "uuid": "09cf2574-10-c8aab59f9a934489f7f7d65b43937c208158e886",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[18]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/the-group-strategy-15955",
-          "urlHash": "09cf25744e5004a59f9e071c4b71e6799e21d25a",
-          "uuid": "09cf2574-13-e9c98ad7e854f7dd35a8702a8913778f329320d1",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[22]",
-          "section": "section-1"
-        },
-        {
-          "url": "https://www.volkswagen-group.com/de/diversitaet-und-inklusion-16087",
-          "urlHash": "2242b64e2487d6ac9b7758b5e13b5639566a31ec",
-          "uuid": "2242b64e-11-0db5e01347036cb165c815d5dcfdefb06e49c110",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[16]",
           "section": "section-1"
         }
       ]
