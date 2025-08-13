@@ -528,7 +528,6 @@
   display: block;
 }
 
-/* --- Use grid for side-by-side, but force image top alignment --- */
 .columns.columns23 > div > div {
   display: grid;
   grid-template-columns: 1fr minmax(320px, 380px);
@@ -539,7 +538,6 @@
   box-sizing: border-box;
 }
 
-/* Stack all text vertically in the left grid cell */
 .columns.columns23 > div > div > h4,
 .columns.columns23 > div > div > p:not(:last-child) {
   grid-column: 1 / 2;
@@ -548,7 +546,6 @@
   margin-bottom: 18px;
 }
 
-/* Ensure heading is visible and strong */
 .columns.columns23 > div > div > h4 {
   color: #1a1a1a;
   font-size: 1.15rem;
@@ -558,7 +555,6 @@
   opacity: 1;
 }
 
-/* Body paragraphs styling */
 .columns.columns23 > div > div > p:not(:last-child) {
   color: #262626;
   font-size: 1.01rem;
@@ -566,7 +562,6 @@
   margin-bottom: 14px;
 }
 
-/* Top-align image in the grid's right cell */
 .columns.columns23 > div > div > p:last-child {
   grid-column: 2 / 3;
   place-self: start end;
@@ -575,7 +570,6 @@
   display: block;
 }
 
-/* Image styling */
 .columns.columns23 > div > div > p:last-child picture,
 .columns.columns23 > div > div > p:last-child img {
   width: 100%;
@@ -587,7 +581,6 @@
   margin: 0;
 }
 
-/* Responsive stacking for smaller screens */
 @media (width <= 900px) {
   .columns.columns23 > div {
     padding: 24px 8px;
@@ -616,9 +609,120 @@
   }
 }
 
-/* Remove any rogue blue nav buttons if present */
 .columns.columns23 .nav-button,
 .columns.columns23 .zurueck-button,
 .columns.columns23 .nachhaltigkeit-button {
   display: none;
+}
+
+
+/* Center the block horizontally in its container */
+.columns.columns24 {
+  background: #fff;
+  border-radius: 18px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  min-width: 320px;
+  display: block;
+}
+
+/* Main layout: 4 children side by side, reduce gap for a compact look */
+.columns.columns24 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  min-height: 180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Black info box: reduce horizontal padding, stack content vertically, compact size */
+.columns.columns24 .columns-img-col {
+  background: #000;
+  border-radius: 18px;
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 100px;
+  max-width: 120px;
+  min-height: 120px;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Make the black box's image/logo stack and fill the available space well */
+.columns.columns24 .columns-img-col picture,
+.columns.columns24 .columns-img-col img {
+  max-width: 56px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Info columns: stack vertically, bring closer together, compact width */
+.columns.columns24 > div > div:not(.columns-img-col) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  min-width: 90px;
+  max-width: 170px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Headline styling (labels) */
+.columns.columns24 > div > div:not(.columns-img-col) h4:first-child {
+  color: #0A222B;
+  font-size: 1.01em;
+  font-weight: 700;
+  margin: 0 0 2px;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+/* Value styling */
+.columns.columns24 > div > div:not(.columns-img-col) h4:not(:first-child) {
+  color: #233645;
+  font-size: 1.07em;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (width <= 900px) {
+  .columns.columns24 {
+    max-width: 98vw;
+  }
+
+  .columns.columns24 > div {
+    flex-direction: column;
+    gap: 18px;
+    min-height: unset;
+  }
+
+  .columns.columns24 .columns-img-col {
+    margin: 0 auto 9px;
+    padding: 16px 8px;
+    min-width: 64px;
+    max-width: 120px;
+    min-height: 80px;
+  }
+
+  .columns.columns24 > div > div:not(.columns-img-col) {
+    min-width: 0;
+    max-width: none;
+  }
 }
