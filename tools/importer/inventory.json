@@ -1596,6 +1596,13 @@
           "uuid": "e8788a0a-08-e53c3e01547df71259006c49566dd41c84c1d739",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[10]/div[1]/div[1]/section[1]/div[2]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/basisdaten-16024",
+          "urlHash": "e6b2ab4a5f8e1d7c6dc8742c8fff9a36f9efc74f",
+          "uuid": "e6b2ab4a-05-b502e46aec2d7e694475284f89230f3024a55868",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
+          "section": "section-2"
         }
       ]
     },
@@ -5081,22 +5088,6 @@
           "uuid": "2253baad-05-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
           "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 104,
-      "source": "Cards",
-      "target": "Cards (cards104)",
-      "key": "cards104",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/basisdaten-16024",
-          "urlHash": "e6b2ab4a5f8e1d7c6dc8742c8fff9a36f9efc74f",
-          "uuid": "e6b2ab4a-05-b502e46aec2d7e694475284f89230f3024a55868",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-2"
         }
       ]
     },
