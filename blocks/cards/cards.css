@@ -533,7 +533,6 @@
   }
 }
 
-/* Card styles */
 .cards.cards20 > ul > li {
   position: relative;
   border-radius: 20px;
@@ -574,7 +573,6 @@
   border-radius: 20px;
 }
 
-/* Overlay body: very tight bottom/left, no underline on links */
 .cards.cards20 > ul > li .cards-card-body {
   position: absolute;
   inset: auto auto 0 0;
@@ -620,7 +618,6 @@
   text-decoration: none;
 }
 
-/* First card (Finanzberichte) link: neon green, large, no margin above */
 .cards.cards20 > ul > li:nth-child(1) .cards-card-body .button,
 .cards.cards20 > ul > li:nth-child(1) .cards-card-body a.button {
   color: #C8FF3D;
@@ -629,7 +626,6 @@
   margin-top: 0;
 }
 
-/* Second card: white text, lighter */
 .cards.cards20 > ul > li:nth-child(2) .cards-card-body .button,
 .cards.cards20 > ul > li:nth-child(2) .cards-card-body a.button {
   color: #fff;
@@ -637,7 +633,6 @@
   font-weight: 400;
 }
 
-/* Third card: green bg, white link, bottom-left alignment, no center alignment */
 .cards.cards20 > ul > li:nth-child(3) {
   background: #0A8B79;
   color: #fff;
@@ -657,14 +652,12 @@
   font-weight: 400;
 }
 
-/* Hide any pill/button/navigation artifacts */
 .cards.cards20 .pill-button,
 .cards.cards20 .nav-text,
 .cards.cards20 .nav-buttons {
   display: none;
 }
 
-/* If the card body only has a link, keep its line height tight */
 .cards.cards20 > ul > li .cards-card-body p,
 .cards.cards20 > ul > li .cards-card-body strong {
   margin: 0;
@@ -685,5 +678,105 @@
     font-size: 1rem;
     padding: 0 8px 8px;
     border-radius: 0;
+  }
+}
+
+
+.cards.cards21 {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards.cards21 > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cards.cards21 > ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.cards.cards21 .cards-card-image {
+  min-width: 56px;
+  min-height: 56px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cards.cards21 .cards-card-image img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0;
+}
+
+.cards.cards21 .cards-card-body {
+  margin-left: 12px;
+  margin-right: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cards.cards21 .cards-card-body p {
+  margin: 0;
+  padding: 0;
+  color: #263238;
+  font-family: var(--body-font-family);
+  font-size: 0.95rem;
+  line-height: 1.32;
+}
+
+.cards.cards21 .cards-card-body strong {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #263238;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.cards.cards21 .cards-card-body a {
+  font-size: 0.95rem;
+  color: #009688;
+  text-decoration: underline;
+  margin-right: 8px;
+  word-break: break-all;
+  line-height: 1.32;
+}
+
+.cards.cards21 .cards-card-body a:hover {
+  color: #00796b;
+  text-decoration: underline;
+}
+
+@media (width <= 600px) {
+  .cards.cards21 > ul > li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cards.cards21 .cards-card-image {
+    margin-bottom: 8px;
+  }
+
+  .cards.cards21 .cards-card-body {
+    margin-left: 0;
   }
 }
