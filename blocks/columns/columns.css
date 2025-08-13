@@ -1,6 +1,11 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
-  display: flex;
+  display: grid;
   flex-direction: column;
+  grid-template-columns: 320px 1fr;
+  align-items: center;
+  gap: 0 48px;
+  min-height: 320px;
 }
 
 .columns img {
@@ -29,5 +34,112 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+
+.columns {
+  background: #1d2a2b;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-sizing: border-box;
+}
+
+/* 2-column grid: image left, info stack right */
+
+/* Left column: center image vertically */
+.columns-img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* VW image styling */
+.columns-img-col img,
+.columns-img-col picture {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #fff;
+  display: block;
+  margin: 0;
+}
+
+/* Stack info pairs vertically in right column */
+.columns > div > div:not(.columns-img-col) {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 32px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.columns > div > div:not(.columns-img-col):last-child {
+  margin-bottom: 0;
+}
+
+/* Label styling (left in row) */
+.columns > div > div:not(.columns-img-col) h4:first-of-type {
+  color: #f5f5f5;
+  font-size: 1.08rem;
+  font-family: var(--body-font-family);
+  font-weight: 500;
+  margin: 0 24px 0 0;
+  letter-spacing: 0.01em;
+  min-width: 110px;
+  flex-shrink: 0;
+}
+
+/* Value styling (right in row) */
+.columns > div > div:not(.columns-img-col) h4 + h4 {
+  color: #e0e7ea;
+  font-size: 1.03rem;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 0.01em;
+  flex: 1 1 auto;
+}
+
+/* Ensure info blocks stack vertically in grid right column */
+@media (width <= 900px) {
+  .columns {
+    padding: 20px 8px;
+    border-radius: 10px;
+  }
+
+  .columns > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: unset;
+  }
+
+  .columns-img-col {
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 18px;
+  }
+
+  .columns-img-col img,
+  .columns-img-col picture {
+    margin: 0 0 18px;
+    width: 160px;
+  }
+
+  .columns > div > div:not(.columns-img-col) {
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 8px;
+  }
+
+  .columns > div > div:not(.columns-img-col):last-child {
+    margin-bottom: 0;
   }
 }
