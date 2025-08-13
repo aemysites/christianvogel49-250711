@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -147,7 +148,7 @@
 .cards.cards11 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; /* Top-align columns */
+  align-items: flex-start;
   justify-content: flex-start;
   gap: 32px;
   background: transparent;
@@ -160,7 +161,7 @@
 .cards.cards11 ul {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; /* Top-align cards in row */
+  align-items: flex-start;
   gap: 32px;
   width: 100%;
   margin: 0;
@@ -208,7 +209,6 @@
   margin-bottom: 6px;
 }
 
-/* Right column: very compact card, minimal padding */
 .cards.cards11 ul > li:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -242,7 +242,6 @@
   display: block;
 }
 
-/* Card text: centered, tightly grouped */
 .cards.cards11 ul > li:nth-child(2) .cards-card-body {
   color: #263238;
   font-family: var(--body-font-family);
@@ -266,7 +265,6 @@
   display: block;
 }
 
-/* Optional: Action icons, if present in the DOM */
 .cards.cards11 ul > li:nth-child(2) .action-icons {
   display: flex;
   flex-direction: row;
@@ -334,4 +332,189 @@
     width: 90px;
     height: 90px;
   }
+}
+
+
+.cards.cards18 {
+  background: #004225;
+  padding: 0;
+}
+
+.cards.cards18 > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 56px 32px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.cards.cards18 > ul > li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #004225;
+  border-radius: 32px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 4%);
+  min-width: 320px;
+  max-width: 600px;
+  padding: 56px 48px;
+  color: #fff;
+  border: none;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Absolutely position image top right, visually above the quote */
+.cards.cards18 .cards-card-image {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 9%);
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.cards.cards18 .cards-card-image img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Flex body to space quote and author block, center quote vertically between image and author */
+.cards.cards18 .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.cards.cards18 .cards-card-body p:last-child {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.42;
+  margin: 0;
+  flex: 1 1 auto;
+  align-self: flex-start;
+  width: 100%;
+  letter-spacing: 0.01em;
+  display: block;
+  min-height: 0;
+  margin-bottom: 48px;
+  margin-top: 16px;
+}
+
+/* Author attribution block at bottom with short yellow line and spacing */
+.cards.cards18 .cards-card-body p:first-child {
+  order: 2;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 0;
+  padding-top: 18px;
+  position: relative;
+  width: 210px;
+  max-width: 90%;
+  border-top: 3px solid #EFFB49;
+  border-radius: 0;
+}
+
+.cards.cards18 .cards-card-body p:first-child strong {
+  color: #EFFB49;
+  font-weight: 700;
+  font-size: 1.13rem;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.cards.cards18 .cards-card-body p:not(:first-child, :last-child) {
+  margin: 0.2em 0;
+}
+
+/* Mobile responsiveness */
+@media (width <= 900px) {
+  .cards.cards18 > ul {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 32px 8px;
+  }
+
+  .cards.cards18 > ul > li {
+    max-width: 100%;
+    min-width: 0;
+    padding: 28px 16px 36px;
+  }
+
+  .cards.cards18 .cards-card-image {
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .cards.cards18 .cards-card-image img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cards.cards18 .cards-card-body p:last-child {
+    font-size: 1.35rem;
+    margin-bottom: 32px;
+    margin-top: 12px;
+  }
+
+  .cards.cards18 .cards-card-body p:first-child {
+    width: 100%;
+    max-width: none;
+    margin-top: 24px;
+    padding-top: 14px;
+  }
+}
+
+/* Optional: Share/Teilen button at bottom right if present in DOM */
+.cards.cards18 .cards-card-body a,
+.cards.cards18 .cards-card-body button,
+.cards.cards18 .cards-card-body .button {
+  position: absolute;
+  right: 40px;
+  bottom: 32px;
+  background: #EFFB49;
+  color: #004225;
+  border-radius: 20px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 4%);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  z-index: 2;
+}
+
+.cards.cards18 .cards-card-body a:hover,
+.cards.cards18 .cards-card-body button:hover,
+.cards.cards18 .cards-card-body .button:hover {
+  background: #e5ea4e;
+  color: #004225;
 }
