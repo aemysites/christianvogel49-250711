@@ -369,7 +369,6 @@
   height: 100%;
 }
 
-/* Absolutely position image top right, visually above the quote */
 .cards.cards18 .cards-card-image {
   position: absolute;
   top: 40px;
@@ -394,7 +393,6 @@
   display: block;
 }
 
-/* Flex body to space quote and author block, center quote vertically between image and author */
 .cards.cards18 .cards-card-body {
   display: flex;
   flex-direction: column;
@@ -420,7 +418,6 @@
   margin-top: 16px;
 }
 
-/* Author attribution block at bottom with short yellow line and spacing */
 .cards.cards18 .cards-card-body p:first-child {
   order: 2;
   color: #fff;
@@ -448,7 +445,6 @@
   margin: 0.2em 0;
 }
 
-/* Mobile responsiveness */
 @media (width <= 900px) {
   .cards.cards18 > ul {
     grid-template-columns: 1fr;
@@ -488,7 +484,6 @@
   }
 }
 
-/* Optional: Share/Teilen button at bottom right if present in DOM */
 .cards.cards18 .cards-card-body a,
 .cards.cards18 .cards-card-body button,
 .cards.cards18 .cards-card-body .button {
@@ -517,4 +512,178 @@
 .cards.cards18 .cards-card-body .button:hover {
   background: #e5ea4e;
   color: #004225;
+}
+
+
+.cards.cards20 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (width <= 900px) {
+  .cards.cards20 > ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Card styles */
+.cards.cards20 > ul > li {
+  position: relative;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 4px 24px 0 rgb(0 0 0 / 6%);
+  min-width: 0;
+  width: 340px;
+  max-width: 100%;
+  height: 370px;
+  min-height: 220px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: none;
+  padding: 0;
+  transition: box-shadow 0.2s;
+}
+
+.cards.cards20 > ul > li:hover {
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 12%);
+}
+
+.cards.cards20 .cards-card-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.cards.cards20 .cards-card-image picture,
+.cards.cards20 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Overlay body: very tight bottom/left, no underline on links */
+.cards.cards20 > ul > li .cards-card-body {
+  position: absolute;
+  inset: auto auto 0 0;
+  padding: 0 12px 12px;
+  width: auto;
+  max-width: 92%;
+  z-index: 2;
+  background: none;
+  border-radius: 0;
+  color: #fff;
+  text-align: left;
+  display: block;
+  box-sizing: border-box;
+  font-family: var(--body-font-family);
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.cards.cards20 .cards-card-body .button,
+.cards.cards20 .cards-card-body a.button {
+  background: none;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.3;
+  display: inline;
+  text-decoration: none;
+  max-width: 100%;
+  white-space: normal;
+  overflow: visible;
+  transition: color 0.2s;
+}
+
+.cards.cards20 .cards-card-body .button:hover,
+.cards.cards20 .cards-card-body a.button:hover {
+  text-decoration: none;
+}
+
+/* First card (Finanzberichte) link: neon green, large, no margin above */
+.cards.cards20 > ul > li:nth-child(1) .cards-card-body .button,
+.cards.cards20 > ul > li:nth-child(1) .cards-card-body a.button {
+  color: #C8FF3D;
+  font-size: 1.32rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+/* Second card: white text, lighter */
+.cards.cards20 > ul > li:nth-child(2) .cards-card-body .button,
+.cards.cards20 > ul > li:nth-child(2) .cards-card-body a.button {
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: 400;
+}
+
+/* Third card: green bg, white link, bottom-left alignment, no center alignment */
+.cards.cards20 > ul > li:nth-child(3) {
+  background: #0A8B79;
+  color: #fff;
+  box-shadow: 0 4px 24px 0 rgb(0 0 0 / 6%);
+}
+
+.cards.cards20 > ul > li:nth-child(3) .cards-card-body {
+  position: absolute;
+  inset: auto auto 0 0;
+  padding: 0 12px 12px;
+  width: auto;
+  background: none;
+  color: #fff;
+  text-align: left;
+  display: block;
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+/* Hide any pill/button/navigation artifacts */
+.cards.cards20 .pill-button,
+.cards.cards20 .nav-text,
+.cards.cards20 .nav-buttons {
+  display: none;
+}
+
+/* If the card body only has a link, keep its line height tight */
+.cards.cards20 > ul > li .cards-card-body p,
+.cards.cards20 > ul > li .cards-card-body strong {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+
+@media (width <= 700px) {
+  .cards.cards20 > ul > li {
+    height: 180px;
+    border-radius: 14px;
+    min-width: 0;
+  }
+
+  .cards.cards20 > ul > li .cards-card-body,
+  .cards.cards20 > ul > li:nth-child(3) .cards-card-body,
+  .cards.cards20 > ul > li:nth-child(1) .cards-card-body {
+    font-size: 1rem;
+    padding: 0 8px 8px;
+    border-radius: 0;
+  }
 }
