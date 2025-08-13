@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -43,5 +44,177 @@
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
+  }
+}
+
+.hero.hero4 {
+  background: #032a36;
+  padding: 64px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 48px;
+  box-sizing: border-box;
+}
+
+.hero.hero4 > div {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero.hero4 > div:first-child {
+  flex: 0 0 350px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero.hero4 > div:first-child > div {
+  width: 320px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 24px rgb(0 0 0 / 12%);
+  background: none;
+}
+
+.hero.hero4 > div:first-child picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.hero.hero4 > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  box-shadow: none;
+  background: none;
+}
+
+.hero.hero4 > div:last-child {
+  flex: 1 1 0;
+  max-width: 480px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero.hero4 > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+
+.hero.hero4 h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: var(--heading-font-family);
+  margin: 0 0 8px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: left;
+}
+
+.hero.hero4 .button-container {
+  margin: 0;
+  width: 100%;
+}
+
+.hero.hero4 .button {
+  background: #baff08;
+  color: #101820;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: none;
+  margin: 0 0 8px;
+  transition: background 0.2s;
+  text-align: left;
+  display: inline-block;
+}
+
+.hero.hero4 .button:hover,
+.hero.hero4 .button:focus {
+  background: #d4ff48;
+  color: #101820;
+}
+
+.hero.hero4 p:not(.button-container) {
+  color: #dbeef3;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (width <= 900px) {
+  .hero.hero4 {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 0;
+    max-width: 100%;
+  }
+
+  .hero.hero4 > div:first-child,
+  .hero.hero4 > div:last-child {
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero.hero4 > div:first-child > div {
+    width: 100%;
+    height: 180px;
+    justify-content: center;
+    border-radius: 16px;
+  }
+
+  .hero.hero4 > div:first-child picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+
+  .hero.hero4 > div:first-child img {
+    width: 100%;
+    min-width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 16px;
+  }
+
+  .hero.hero4 > div:last-child {
+    padding: 0 12px;
+    align-items: center;
+  }
+
+  .hero.hero4 > div:last-child > div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero.hero4 h2,
+  .hero.hero4 p:not(.button-container),
+  .hero.hero4 .button {
+    text-align: center;
   }
 }
