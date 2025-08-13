@@ -45,9 +45,6 @@
   box-sizing: border-box;
 }
 
-/* 2-column grid: image left, info stack right */
-
-/* Left column: center image vertically */
 .columns-img-col {
   display: flex;
   align-items: center;
@@ -57,7 +54,6 @@
   grid-row: 1;
 }
 
-/* VW image styling */
 .columns-img-col img,
 .columns-img-col picture {
   width: 220px;
@@ -69,7 +65,6 @@
   margin: 0;
 }
 
-/* Stack info pairs vertically in right column */
 .columns > div > div:not(.columns-img-col) {
   display: flex;
   flex-direction: row;
@@ -83,7 +78,6 @@
   margin-bottom: 0;
 }
 
-/* Label styling (left in row) */
 .columns > div > div:not(.columns-img-col) h4:first-of-type {
   color: #f5f5f5;
   font-size: 1.08rem;
@@ -95,7 +89,6 @@
   flex-shrink: 0;
 }
 
-/* Value styling (right in row) */
 .columns > div > div:not(.columns-img-col) h4 + h4 {
   color: #e0e7ea;
   font-size: 1.03rem;
@@ -106,7 +99,6 @@
   flex: 1 1 auto;
 }
 
-/* Ensure info blocks stack vertically in grid right column */
 @media (width <= 900px) {
   .columns {
     padding: 20px 8px;
@@ -142,4 +134,130 @@
   .columns > div > div:not(.columns-img-col):last-child {
     margin-bottom: 0;
   }
+}
+
+
+.columns.columns2 {
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.columns.columns2 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  min-height: 120px;
+  gap: 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+@media (width <= 900px) {
+  .columns.columns2 > div {
+    flex-direction: column;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* Hide the image column */
+.columns.columns2 .columns-img-col {
+  display: none;
+}
+
+/* Left card column styling */
+.columns.columns2 > div > div:first-child {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  min-width: 340px;
+  max-width: 360px;
+  width: 340px;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media (width <= 900px) {
+  .columns.columns2 > div > div:first-child {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 24px 12px;
+  }
+}
+
+/* Vertical divider in the left card */
+.columns.columns2 > div > div:first-child::after {
+  position: absolute;
+  left: 50%;
+  top: 18px;
+  bottom: 18px;
+  width: 4px;
+  background: #216867;
+  border-radius: 2px;
+  z-index: 1;
+  transform: translateX(-50%);
+  pointer-events: none;
+  display: block;
+}
+
+/* Card text styling */
+.columns.columns2 > div > div:first-child h3 {
+  color: #333;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin: 0;
+  line-height: 1.3;
+  text-align: left;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+/* Teal right column styling */
+.columns.columns2 > div > div:last-child {
+  background: #00887A;
+  border-radius: 0;
+  padding: 32px 56px 32px 32px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 1 1 0%;
+  min-height: 120px;
+  width: 100%;
+}
+
+@media (width <= 900px) {
+  .columns.columns2 > div > div:last-child {
+    padding: 18px 12px;
+    width: 100%;
+    min-width: 0;
+    min-height: 80px;
+  }
+}
+
+/* Teal column text styling */
+.columns.columns2 > div > div:last-child h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 0.01em;
+  display: block;
+}
+
+/* Ensure the left card and the right teal block have equal min-heights for alignment */
+.columns.columns2 > div > div {
+  min-height: 120px;
 }
