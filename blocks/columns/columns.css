@@ -264,19 +264,16 @@
   max-width: 900px;
   width: 100%;
   overflow: hidden;
-
-  /* Add vertical padding to visually center content in the card */
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
   min-height: 360px;
   box-sizing: border-box;
 }
 
-/* Layout: Two columns side by side, vertically centered in the card */
 .columns.columns15 > div {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Center content vertically */
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
   height: 100%;
@@ -284,11 +281,10 @@
   gap: 0;
 }
 
-/* Left column: image */
 .columns.columns15 .columns-img-col {
   flex: 0 0 42%;
   display: flex;
-  align-items: center; /* Center image vertically within its column */
+  align-items: center;
   justify-content: flex-end;
   padding: 0 2vw 0 0;
   box-sizing: border-box;
@@ -306,7 +302,6 @@
   display: block;
 }
 
-/* Right column: content stacked and vertically centered with the image */
 .columns.columns15 > div > div:not(.columns-img-col) {
   flex: 1 1 0;
   display: flex;
@@ -365,7 +360,6 @@
   max-width: 34em;
 }
 
-/* Responsive: stack vertically on small screens */
 @media (width <= 800px) {
   .columns.columns15 {
     border-radius: 18px;
@@ -404,9 +398,72 @@
   }
 }
 
-/* Remove unwanted overlays/buttons if present */
 .columns.columns15 .image-btn,
 .columns.columns15 .blue-pill-btn,
 .columns.columns15 .image-overlay {
   display: none;
+}
+
+
+.columns.columns16 {
+  background: #062c37;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the row of columns is flush to the top, tight on left/right */
+.columns.columns16 > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Inner columns fill space, flush top, no extra margin/padding */
+.columns.columns16 > div > div {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Remove all top margin, minimal left padding for bullets; keep tight to edge */
+.columns.columns16 ul {
+  margin: 0;
+  padding-left: 12px;
+  list-style-type: disc;
+}
+
+/* Tight vertical spacing between bullets, minimal margin below */
+.columns.columns16 li {
+  color: #e3e8e6;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.columns.columns16 li:last-child {
+  margin-bottom: 0;
+}
+
+/* Links: light color and underline */
+.columns.columns16 a {
+  color: #e3e8e6;
+  text-decoration: underline;
+}
+
+/* Responsive: stack columns vertically on smaller screens */
+@media (width <= 700px) {
+  .columns.columns16 > div {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
