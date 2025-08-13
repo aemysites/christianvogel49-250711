@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  border-bottom: 1px solid var(--border-color);
 }
 
 header nav {
@@ -185,8 +186,8 @@ header nav .nav-sections ul > li > ul > li {
 
 @media (width >= 900px) {
   header nav .nav-sections {
-    display: block;
-    visibility: visible;
+    display: block !important;
+    visibility: visible !important;
     white-space: nowrap;
   }
 
@@ -240,10 +241,12 @@ header nav .nav-sections ul > li > ul > li {
     display: block;
     position: absolute;
     left: -24px;
-    width: 200px;
+    width: 240px;
     top: 150%;
     padding: 16px;
-    background-color: var(--light-color);
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--elevation-1);
     white-space: initial;
   }
 
@@ -256,7 +259,7 @@ header nav .nav-sections ul > li > ul > li {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--light-color);
+    border-bottom: 8px solid #ffffff;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
