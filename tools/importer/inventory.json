@@ -1946,6 +1946,13 @@
           "uuid": "df9d885d-03-11a0235cfb98d43555c69945b76854c7e6854594",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[4]",
           "section": "section-1"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzberichte-und-publikationen-16121",
+          "urlHash": "df9d885dff9a5c261fd85fd2b9b66ab4f25fd35f",
+          "uuid": "df9d885d-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
+          "section": "section-1"
         }
       ]
     },
@@ -5146,22 +5153,6 @@
           "urlHash": "8262a4798dd324367214668adab5ea008c9d04bc",
           "uuid": "8262a479-05-b502e46aec2d7e694475284f89230f3024a55868",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[8]",
-          "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 108,
-      "source": "Cards",
-      "target": "Cards (cards108)",
-      "key": "cards108",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/finanzberichte-und-publikationen-16121",
-          "urlHash": "df9d885dff9a5c261fd85fd2b9b66ab4f25fd35f",
-          "uuid": "df9d885d-04-7f8e3bbb330ed80bfc66006df784f967ca0286aa",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[6]",
           "section": "section-1"
         }
       ]
