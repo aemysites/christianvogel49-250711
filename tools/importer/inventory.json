@@ -1610,6 +1610,13 @@
           "uuid": "935ffe4e-08-59cb2ff023be9b46b9eb1ce861a0f4196cfc232f",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[2]/div[12]/div[1]/div[1]/div[4]",
           "section": "section-2"
+        },
+        {
+          "url": "https://www.volkswagen-group.com/de/finanzberichte-18134",
+          "urlHash": "717b02992e83dbabc5f4bb12ad8904bc46f8572d",
+          "uuid": "717b0299-05-62fc7fdb80f43dea697124b3cfab8501ed2fd834",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[4]/div[1]/div[1]/div[6]",
+          "section": "section-2"
         }
       ]
     },
@@ -4946,22 +4953,6 @@
           "uuid": "2242b64e-04-aecdb8d52a0cceeaa4417b6b9b82fa8d24834a0d",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[3]/div[6]",
           "section": "section-1"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 96,
-      "source": "Cards",
-      "target": "Cards (cards96)",
-      "key": "cards96",
-      "instances": [
-        {
-          "url": "https://www.volkswagen-group.com/de/finanzberichte-18134",
-          "urlHash": "717b02992e83dbabc5f4bb12ad8904bc46f8572d",
-          "uuid": "717b0299-05-62fc7fdb80f43dea697124b3cfab8501ed2fd834",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]/div[2]/div[4]/div[4]/div[1]/div[1]/div[6]",
-          "section": "section-2"
         }
       ]
     },
